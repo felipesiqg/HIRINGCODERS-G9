@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#footer-countries":{
+    "children":[
+      "rich-text#test"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#clients-section":{
+    "children":[
+      "rich-text#test"
+    ]
+  }
+}

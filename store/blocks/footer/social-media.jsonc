@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#footer-social-media":{
+    "children":[
+      "rich-text#test"
+    ]
+  }
+}

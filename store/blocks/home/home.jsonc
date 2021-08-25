@@ -1,0 +1,13 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#global-section",
+      "flex-layout.row#clients-section",
+      "flex-layout.row#case-section",
+      "flex-layout.row#framework-section",
+      "flex-layout.row#who-are-we-section",
+      "flex-layout.row#media-section"
+//      "flex-layout.row#form"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#who-are-we-section":{
+    "children":[
+      "rich-text#test"
+    ]
+  }
+}

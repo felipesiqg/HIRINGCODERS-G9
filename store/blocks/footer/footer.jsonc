@@ -4,12 +4,14 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-countries",
+      "flex-layout.row#footer-social-media"
     ]
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-countries",
+      "flex-layout.row#footer-social-media"
     ]
   },
   "flex-layout.row#footer": { 

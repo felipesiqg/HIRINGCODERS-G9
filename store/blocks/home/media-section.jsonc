@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#media-section":{
+    "children":[
+      "rich-text#test"
+    ]
+  }
+}

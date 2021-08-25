@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#case-section":{
+    "children":[
+      "rich-text#test"
+    ]
+  }
+}

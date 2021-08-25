@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#global-section":{
+    "children":[
+      "rich-text#test"
+    ]
+  }
+}
