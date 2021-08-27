@@ -1,7 +1,98 @@
 {
-  "flex-layout.row#footer-countries":{
-    "children":[
-      "rich-text#test"
-    ]
-  }
-}
+    "flex-layout.row#footer-countries":{
+        "props": {
+        "blockClass": "textcountries"
+        },
+        "children":[
+        "flex-layout.col#brasil",
+        "flex-layout.col#argentina",
+        "flex-layout.col#mexico",
+        "flex-layout.col#chile",
+        "flex-layout.col#logo"
+        ]
+    },
+
+    "flex-layout.col#brasil": {
+        "children":[
+        "rich-text#brasil"
+        ]
+    },
+
+    "rich-text#brasil":{
+        "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Brasil** Avenida Andrômeda, 2000.\n Bloco 6 e 8 Alphaville SP \n\n R. Ifigenia Maria de Oliveira,\n 3793 - Jr. Piratininga Franca SP",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "country"
+        }
+    },
+
+    "flex-layout.col#argentina": {
+        "children":[
+        "rich-text#argentina"
+        ]
+    },
+
+    "rich-text#argentina": {
+        "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Argentina** Soler 5518, 3 Piso C1425BYF\n Palermo Hollywood CABA",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "country"
+        }
+    },
+
+    "flex-layout.col#mexico": {
+        "children":[
+        "rich-text#mexico"
+        ]
+    },
+
+    "rich-text#mexico":{
+        "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Mexico** Blvd. Miguel de Cervantes\n Saavedra 169, Granada, Miguel\n Hidalgo, 11520 Ciudad de\n México, CDMX",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "country"
+        }
+    },
+
+    "flex-layout.col#chile": {
+        "children":[
+        "rich-text#chile"
+        ]
+    },
+
+    "rich-text#chile": {
+        "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Chile** Roberto del Río 1137,\n Providencia.",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "country"
+        }
+    },
+
+    "flex-layout.col#logo": {
+        "children": [
+        "icon#logo"
+        ],
+        "props": {
+        "blockClass": "footer-logo-icon"
+        }
+    },
+
+    "icon#logo": {
+        "props": {
+        "id": "bnd-footer-corebiz",
+        "size": 113
+        }
+    }
+} 
