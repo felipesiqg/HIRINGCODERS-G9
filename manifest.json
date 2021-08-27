@@ -25,6 +25,7 @@
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
+    "vtex.search": "2.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
@@ -50,7 +51,12 @@
     "vtex.store-image": "0.x",
     "vtex.store-link": "0.x",
     "vtex.product-list": "0.x",
-    "vtex.checkout-summary": "0.x"
+    "vtex.checkout-summary": "0.x",
+    "vtex.admin-search": "1.x",
+    "vtex.search-resolver": "1.x",
+    "vtex.product-highlights": "2.x",
+    "vtex.product-price": "1.x",
+    "vtex.modal-layout": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
