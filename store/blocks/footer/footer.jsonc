@@ -1,28 +1,75 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop"
+    ]
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer-countries",
-      "flex-layout.row#footer-social-media"
+      "flex-layout.row#footer"    
     ]
   },
-  "footer-layout.mobile": { 
+  "flex-layout.row#footer": {
     "children": [
-      "flex-layout.row#footer-countries",
-      "flex-layout.row#footer-social-media"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
+      "flex-layout.col#footer-content",
+      "flex-layout.col#footer-image"
+    ],
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "footer",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#footer-content": {
+    "children": [
+      "flex-layout.row#footer-countries",
+      "flex-layout.row#footer-social-media",
+      "flex-layout.row#footer-go-top"
+    ],
+    "props": {
+      "blockClass": "contentfooter",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#footer-image": {
+    "children": [
+      "image#footer-image"
+    ],
+    "props": {
+      "blockClass": "imagefooter"
+    }
+  },
+  "image#footer-image": {
+    "props": {
+      "src":"https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/footer-background.jpg"
+    }
+  },
+  "flex-layout.row#footer-go-top": {
+    "children": [
+      "link#go-top"
+    ],
+    "props": {
+      "blockClass": "footer-go-top"
+    }
+  },
+  "link#go-top": {
+    "props": {
+      "href": "#top"
+    },
+    "children": [
+      "icon#go-top",
+      "rich-text#go-top"
+    ]
+  },
+  "icon#go-top": {
+    "props": {
+      "id": "hpa-arrow-to-top",
+      "size": 50
+    }
+  },
+  "rich-text#go-top": {
+    "props": {
+      "text": "topo",
+      "blockClass": "footer-go-top"
     }
   }
 }

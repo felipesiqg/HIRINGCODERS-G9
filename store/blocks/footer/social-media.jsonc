@@ -1,7 +1,96 @@
 {
   "flex-layout.row#footer-social-media":{
-    "children":[
-      "rich-text#test"
+    "children": [
+      "flex-layout.col#social",
+      "flex-layout.col#copyright"
     ]
+  },
+  "flex-layout.col#social": {
+    "children": [
+      "flex-layout.row#follow",
+      "flex-layout.row#icons"
+    ],
+    "props": {
+      "width": "10%"
+    }
+  },
+  "flex-layout.row#follow": {
+    "children": [
+      "rich-text#follow"
+    ]
+  },
+  "rich-text#follow": {
+    "props": {
+      "textAlignment": "LEFT",
+      "text": "**Siga a gente**",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "follow"
+    }
+  },
+  "flex-layout.row#icons": {
+    "children": [
+      "link#instagram",
+      "link#facebook",
+      "link#linkedin"
+    ]
+  },
+  "link#instagram": {
+    "props": {
+      "href": "https://www.instagram.com/corebizag/",
+      "target": "_blank",
+      "blockClass": "iconLink" 
+    },
+    "children": [
+      "icon#instagram"
+    ]
+  },
+  "icon#instagram": {
+    "props": {
+      "id": "bnd-footer-instagram"
+    }
+  },
+  "link#facebook": {
+    "props": {
+      "href": "https://pt-br.facebook.com/corebiz.ag",
+      "target": "_blank",
+      "blockClass": "iconLink" 
+    },
+    "children": [
+      "icon#facebook"
+    ]
+  },
+  "icon#facebook": {
+    "props": {
+      "id": "bnd-footer-facebook"
+    }
+  },
+  "link#linkedin": {
+    "props": {
+      "href": "https://www.linkedin.com/company/corebiz-brasil",
+      "target": "_blank",
+      "blockClass": "iconLink" 
+    },
+    "children": [
+      "icon#linkedin"
+    ]
+  },
+  "icon#linkedin": {
+    "props": {
+      "id": "bnd-footer-linkedin"
+    }
+  },
+  "flex-layout.col#copyright": {
+    "children": [
+      "rich-text#copyright"
+    ]
+  },
+  "rich-text#copyright": {
+    "props": {
+      "text": "direitos reservados. corebiz 2021",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "copyright"
+    }
   }
 }
