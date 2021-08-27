@@ -1,0 +1,12 @@
+.logoImage{
+    align-items: center;
+    text-align: center;
+}
+
+.logoImage:global(.vtex-store-components-3-x-logoImage){
+    padding: 0;
+}
+
+.imageElement{
+    width: 25px;
+}

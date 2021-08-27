@@ -1,0 +1,27 @@
+.headerRowContainer {
+    margin: auto;
+    padding: 0 2rem;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.59), transparent);
+  }
+  @media (min-width: 768px) {
+    .headerRowContainer--menu-header-desktop {
+      padding-top: 65px;
+      align-items: center;
+      text-align: center;
+      font-size: 62.5%;
+    }
+  }
+  
+  .headerRowContainer--menu-header-mobile {
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    height: 9rem;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.59), transparent);
+    align-items: center;
+  }
