@@ -1,13 +1,17 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#global-section",
-      "flex-layout.row#clients-section",
-      "flex-layout.row#case-section",
-      "flex-layout.row#framework-section",
-      "flex-layout.row#who-are-we-section",
-      "flex-layout.row#media-section"
-//      "flex-layout.row#form"
+      "responsive-layout.desktop#desktop", 
+      "responsive-layout.mobile#mobile"
     ]
+  },
+  // DESKTOP
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "stack-layout#deskmundo"
+    ]
+  },// MOBILE
+  "responsive-layout.mobile#mobile": {
+    "children": ["stack-layout#mobmundo"]
   }
 }

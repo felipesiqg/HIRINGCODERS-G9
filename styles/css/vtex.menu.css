@@ -1,0 +1,56 @@
+.styledLinkContent {
+position: relative;
+color: #fff;
+align-items: center;
+text-align: center;
+font-size: 16px;
+}
+
+.styledLinkContent:hover {
+color: #666;
+cursor: pointer;
+}
+
+.styledLinkContainer:global(.vtex-menu-2-x-menuContainer) {
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+}
+
+.styledLinkContent--drawer-menu {
+padding: 2rem 0;
+display: block;
+color: #000;
+text-decoration: none;
+font-size: 2.4rem;
+position: relative;
+box-sizing: border-box;
+cursor: pointer;
+text-align: -webkit-match-parent;
+justify-content: center;
+}
+
+.styledLinkContent--menu-link-language{
+font-size: 12px;
+}
+
+.styledLinkContent--menu-link-language:active::after {
+content: "";
+position: absolute;
+width: 4px;
+height: 4px;
+border-radius: 50%;
+background-color: #fff;
+bottom: -5px;
+right: 50%;
+transform: translate(50%, -50%);
+}
+
+.menuItem--menu-link-language {
+width: 40px;
+}
+.menuItem--menu-link-language:global(.vtex-menu-2-x-styledContent){
+    color:#666;
+} 
