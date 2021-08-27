@@ -17,6 +17,7 @@
       "logo",
       "header-spacer",
       "flex-layout.row#website",
+      "minicart.v2",
       "flex-layout.row#language"
     ],
     "props": {
