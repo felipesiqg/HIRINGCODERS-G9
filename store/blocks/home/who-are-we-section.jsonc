@@ -1,7 +1,43 @@
 {
-  "flex-layout.row#who-are-we-section":{
+  "flex-layout.row#desk-somos-corebiz":{
     "children":[
-      "rich-text#test"
+      "flex-layout.col#desk-somos-corebiz-parceiros",
+      "flex-layout.col#desk-somos-corebiz-video"
     ]
+  },
+  "flex-layout.col#desk-somos-corebiz-parceiros":{
+    "children":[
+      "rich-text#somos-corebiz",
+      "rich-text#maior-empresa",
+      "rich-text#nossos-parceiros"
+    ],
+    "props":{
+      "blockClass": "somos-corebiz-parceros"
+    }
+  },
+  "flex-layout.col#desk-somos-corebiz-video":{
+    "children":[
+      "rich-text#somos-corebiz"
+    ]
+  },
+  "rich-text#somos-corebiz":{
+    "props":{
+      "text": "somos a corebiz.",
+      "blockClass": "txt-somos-corebiz"
+    }
+  },
+  "rich-text#maior-empresa":{
+    "props":{
+      "text": "a maior empresa de experiência, tecnologia e marketing para comércio da América Latina.",
+      "blockClass": "txt-maior-empresa"
+    }
+  },
+  "rich-text#nossos-parceiros":{
+    "props":{
+      "text": "nossos parceiros:",
+      "blockClass": "txt-nossos-parceiros"
+    }
   }
+
+
 }
