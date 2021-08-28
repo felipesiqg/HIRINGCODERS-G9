@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 48em) {
   .flexRowContent--menu-header-mobile {
     position: absolute;
@@ -88,4 +87,8 @@
 .stretchChildrenWidth :global(.vtex-button) {
     background: #000;
     border-color: #000;
+}
+
+.flexRow--product-page{
+    background: #fff;
 }
