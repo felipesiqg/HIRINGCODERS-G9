@@ -6,74 +6,259 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
-  },
-  "sticky-layout#desktop": {
+    "children": ["header-row#menu-desktop"],
     "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": ["flex-layout.row#desktop"]
-  },
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
-    ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
+      "fullWidth": true,
+      "blockClass": "menu-container"
     }
   },
-  "flex-layout.col#logo-desktop": {
+  "header-row#menu-desktop": {
+    "children": [
+      "logo",
+      "header-spacer",
+      "flex-layout.row#website",
+      "flex-layout.row#language",
+      "minicart.v2"
+    ],
     "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
+      "blockClass": "menu-header-desktop",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#website": {
+    "children": ["vtex.menu@2.x:menu#websites"],
+    "props": {
+      "blockClass": "layout-website"
+    }
+  },
+
+  "vtex.menu@2.x:menu#websites": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-corebiz",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "corebiz",
+            "text": "a corebiz"
+          }
+        },
+        {
+          "id": "menu-item-services",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "serviços",
+            "text": "serviços"
+          }
+        },
+        {
+          "id": "menu-item-cases",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "cases",
+            "text": "cases"
+          }
+        },
+        {
+          "id": "menu-item-contact",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "contato",
+            "text": "contato"
+          }
+        }
+      ]
+    }
+  },
+  "flex-layout.row#language": {
+    "children": ["vtex.menu@2.x:menu#language"],
+    "props": {
+      "blockClass": "layout-language"
+    }
+  },
+  "vtex.menu@2.x:menu#language": {
+    "children": ["menu-item#pt", "menu-item#en", "menu-item#es"]
+  },
+  "menu-item#pt": {
+    "props": {
+      "blockClass": "menu-link-language",
+      "id": "menu-item-pt",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "pt",
+        "text": "Pt"
+      }
+    }
+  },
+  "menu-item#en": {
+    "props": {
+      "blockClass": "menu-link-language",
+      "id": "menu-item-en",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "en",
+        "text": "En"
+      }
+    }
+  },
+  "menu-item#es": {
+    "props": {
+      "blockClass": "menu-link-language",
+      "id": "menu-item-es",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "es",
+        "text": "Es"
+      }
+    }
   },
   "logo": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-corebiz-global.svg",
+      "width": "105",
+      "blockClass": "logo-corebiz"
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
+    "children": ["header-row#menu-mobile"]
   },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+  "header-row#menu-mobile": {
+    "children": ["flex-layout.row#mobile"],
+    "props": {
+      "blockClass": "menu-header-mobile",
+      "fullWidth": true
+    }
   },
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
       "logo",
-      "flex-layout.col#spacer",
-      "login",
+      "vtex.menu@2.x:menu#language",
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
+      "blockClass": "menu-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
   "drawer": {
-    "children": []
+    "children": ["menu#drawer"],
+    "blocks": ["drawer-trigger"]
+  },
+  "drawer-trigger": {
+    "children": ["image#menu"]
+  },
+  "image#menu": {
+    "props": {
+      "src": "assets/menu.png",
+      "blockClass": "icon-menu"
+    }
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#corebiz-mobile",
+      "menu-item#services-mobile",
+      "menu-item#cases-mobile",
+      "menu-item#contact-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#corebiz-mobile": {
+    "props": {
+      "blockClass": "drawer-menu",
+      "id": "menu-item-corebiz-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "corebiz",
+        "text": "a corebiz"
+      }
+    }
+  },
+  "menu-item#services-mobile": {
+    "props": {
+      "blockClass": "drawer-menu",
+      "id": "menu-item-services-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "serviços",
+        "text": "serviços"
+      }
+    }
+  },
+  "menu-item#cases-mobile": {
+    "props": {
+      "blockClass": "drawer-menu",
+      "id": "menu-item-cases-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "cases",
+        "text": "cases"
+      }
+    }
+  },
+  "menu-item#contact-mobile": {
+    "props": {
+      "blockClass": "drawer-menu",
+      "id": "menu-item-contact-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "contato",
+        "text": "contato"
+      }
+    }
   }
 }
