@@ -1,17 +1,38 @@
 {
   "store.home": { 
     "blocks": [
-      "responsive-layout.desktop#desktop", 
+      "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile"
     ]
   },
   // DESKTOP
   "responsive-layout.desktop#desktop": {
     "children": [
-      "stack-layout#deskmundo"
+      //WE ARE GLOBAL
+      "stack-layout#deskmundo",
+      //PRINCIPAIS CLIENTES
+      //CASE
+      "slider-layout#case-desktop",
+      //FRAMEWORK
+      //SOMOS A COREBIZ
+      "flex-layout.row#desk-somos-corebiz"
+      //COREBIZ NA MÍDIA
+      //NEWS
+      //FORM
     ]
   },// MOBILE
   "responsive-layout.mobile#mobile": {
-    "children": ["stack-layout#mobmundo"]
+    "children": [
+      //WE ARE GLOBAL
+      "stack-layout#mobmundo",
+      //PRINCIPAIS CLIENTES
+      //CASE
+      "slider-layout#case-mobile"
+      //FRAMEWORK
+      //SOMOS A COREBIZ
+      //COREBIZ NA MÍDIA
+      //NEWS
+      //FORM
+    ]
   }
 }
