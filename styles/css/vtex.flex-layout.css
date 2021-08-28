@@ -87,3 +87,9 @@ margin-right: 0;
 .flexRow--footer-go-top :global(.vtex-store-link-0-x-link) {
     text-decoration: none;
 } 
+
+/* Cor dos botões em preto, de acordo com a identidade da Corebiz */
+.stretchChildrenWidth :global(.vtex-button) {
+    background: #000;
+    border-color: #000;
+}
