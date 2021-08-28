@@ -1,0 +1,19 @@
+:global(.vtex-slider-layout-0-x-sliderRightArrow ){
+    background: #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.sliderArrows--slider-mobile{
+    background: #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+/*sliderRightArrow, sliderRightArrow--slider-desktop, sliderArrows, sliderArrows--slider-desktop

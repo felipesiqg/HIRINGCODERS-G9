@@ -9,7 +9,8 @@
     },
     "icon-cart#minicart-icon": {
         "props": {
-            "size": 24
+            "size": 18,
+            "blockClass":"icon-minicart"
         }
     },
     "minicart-base-content": {

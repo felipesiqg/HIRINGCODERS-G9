@@ -1,17 +1,15 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "responsive-layout.desktop#desktop", 
+      "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile"
     ]
   },
   // DESKTOP
   "responsive-layout.desktop#desktop": {
-    "children": [
-      "stack-layout#deskmundo"
-    ]
-  },// MOBILE
+    "children": ["stack-layout#deskmundo", "slider-layout#case-desktop"]
+  }, // MOBILE
   "responsive-layout.mobile#mobile": {
-    "children": ["stack-layout#mobmundo"]
+    "children": ["stack-layout#mobmundo", "slider-layout#case-mobile"]
   }
 }
