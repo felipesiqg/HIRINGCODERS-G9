@@ -1,4 +1,4 @@
-.logoImage{
+.logoImage--logo-corebiz{
     align-items: center;
     text-align: center;
 }
@@ -7,6 +7,49 @@
     padding: 0;
 }
 
-.imageElement{
+.imageElement--icon-menu{
     width: 25px;
+}
+
+/* Cor do texto do buy button no mesmo amarelo que aparece no mapa */
+.buyButtonText{
+    color: #f1c233;
+}
+
+} 
+
+
+.infoCardContainer--infocard-desktop{
+    height: 100vh;
+    width: 100vw;
+    content: "";
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-color:white;
+}
+
+.infoCardContainer--infocard-mobile{
+    height: 100vh;
+    content: "";
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.infoCardTextContainer--infocard-desktop{
+    padding: 0;
+    margin: 0;
+    transform: translate(70%,10%);
+}
+
+.infoCardAllActionContainer:global(.vtex-button__label){
+    text-decoration: none;
+    color: #fff;
+    background-color: #2680eb;
+    padding: 17.6px 72rem 22.4rem;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
 } 
