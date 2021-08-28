@@ -16,4 +16,17 @@
     bottom: 0;
 }
 
-/*sliderRightArrow, sliderRightArrow--slider-desktop, sliderArrows, sliderArrows--slider-desktop 
+/* /*sliderRightArrow, sliderRightArrow--slider-desktop, sliderArrows, sliderArrows--slider-desktop  */
+
+.layoutContainer--shelf {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 96rem;
+  }
+  
+
+.slide--shelf {
+    margin-bottom: 25px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
