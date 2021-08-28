@@ -5,6 +5,7 @@
       "responsive-layout.mobile#mobile"
     ]
   },
+
   // DESKTOP
   "responsive-layout.desktop#desktop": {
     "children": [
@@ -13,6 +14,9 @@
       //PRINCIPAIS CLIENTES
       //CASE
       "slider-layout#case-desktop",
+      //SHELF
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
       //FRAMEWORK
       //SOMOS A COREBIZ
       "flex-layout.row#desk-somos-corebiz"
@@ -20,14 +24,19 @@
       //NEWS
       //FORM
     ]
-  },// MOBILE
+  },
+
+  // MOBILE
   "responsive-layout.mobile#mobile": {
     "children": [
       //WE ARE GLOBAL
       "stack-layout#mobmundo",
       //PRINCIPAIS CLIENTES
       //CASE
-      "slider-layout#case-mobile"
+      "slider-layout#case-mobile",
+      //SHELF
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
       //FRAMEWORK
       //SOMOS A COREBIZ
       //COREBIZ NA MÍDIA
