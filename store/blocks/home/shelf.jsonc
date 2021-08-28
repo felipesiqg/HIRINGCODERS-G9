@@ -1,0 +1,34 @@
+{
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Serviços",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list"]
+  },
+
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "slider-layout#products": {
+    "props": {
+      "itemsPerPage": {
+        // Temos apenas 3 produtos
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

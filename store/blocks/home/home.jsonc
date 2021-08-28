@@ -5,13 +5,22 @@
       "responsive-layout.mobile#mobile"
     ]
   },
+
   // DESKTOP
   "responsive-layout.desktop#desktop": {
     "children": [
-      "stack-layout#deskmundo"
+      "stack-layout#deskmundo",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
     ]
-  },// MOBILE
+  },
+
+  // MOBILE
   "responsive-layout.mobile#mobile": {
-    "children": ["stack-layout#mobmundo"]
+    "children": [
+      "stack-layout#mobmundo",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf"
+    ]
   }
 }
