@@ -9,6 +9,13 @@
 
 .imageElement--icon-menu{
     width: 25px;
+}
+
+/* Cor do texto do buy button no mesmo amarelo que aparece no mapa */
+.buyButtonText{
+    color: #f1c233;
+}
+
 } 
 
 
