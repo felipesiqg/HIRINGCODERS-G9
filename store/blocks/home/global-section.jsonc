@@ -10,7 +10,10 @@
       "rich-text#deskinf1",
       "rich-text#deskinf2", 
       "rich-text#deskinf3"
-    ]
+    ],
+    "props":{
+      "blockClass": "we-are-global-section"
+    }
   },
   "image#deskmundo": {
     "props": {

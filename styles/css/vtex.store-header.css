@@ -1,7 +1,7 @@
 .headerRowContainer--menu-header-desktop {
-    margin: auto;
-    padding: 0 2rem;
-    position: relative;
+    margin: 0 auto;
+    padding: 0 2rem !important;
+    position: absolute;
     top: 0;
     z-index: 1;
     overflow: hidden;
