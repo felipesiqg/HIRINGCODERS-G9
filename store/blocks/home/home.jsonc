@@ -12,6 +12,7 @@
       //WE ARE GLOBAL
       "stack-layout#deskmundo",
       //PRINCIPAIS CLIENTES
+      "stack-layout#deskclientes",
       //CASE
       "slider-layout#case-desktop",
       //SHELF
@@ -32,6 +33,7 @@
       //WE ARE GLOBAL
       "stack-layout#mobmundo",
       //PRINCIPAIS CLIENTES
+      "stack-layout#mobclientes",
       //CASE
       "slider-layout#case-mobile",
       //SHELF
