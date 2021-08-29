@@ -2,8 +2,8 @@
   "header": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
-  "header.full":{
-      "blocks":["header-layout.desktop", "header-layout.mobile"]
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
     "children": ["header-row#menu-desktop"],
@@ -21,14 +21,14 @@
       "minicart.v2"
     ],
     "props": {
-      "blockClass":"menu-header-desktop",
+      "blockClass": "menu-header-desktop",
       "fullWidth": true
     }
   },
   "flex-layout.row#website": {
     "children": ["vtex.menu@2.x:menu#websites"],
-    "props":{
-        "blockClass":"layout-website"
+    "props": {
+      "blockClass": "layout-website"
     }
   },
 
@@ -92,8 +92,8 @@
   },
   "flex-layout.row#language": {
     "children": ["vtex.menu@2.x:menu#language"],
-    "props":{
-        "blockClass":"layout-language"
+    "props": {
+      "blockClass": "layout-language"
     }
   },
   "vtex.menu@2.x:menu#language": {
@@ -158,15 +158,16 @@
   },
   "header-row#menu-mobile": {
     "children": ["flex-layout.row#mobile"],
-    "props":{
+
+    "props": {
       "blockClass": "menu-header-mobile",
       "fullWidth": true
     }
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer", 
-      "logo", 
+      "drawer",
+      "logo",
       "vtex.menu@2.x:menu#language",
       "minicart.v2"
     ],
