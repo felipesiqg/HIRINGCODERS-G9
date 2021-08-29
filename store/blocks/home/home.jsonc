@@ -17,10 +17,10 @@
       "slider-layout#case-desktop",
       //SHELF
       "rich-text#shelf-title",
-      "flex-layout.row#shelf"
+      "flex-layout.row#shelf",
       //FRAMEWORK
       //SOMOS A COREBIZ
-      //"flex-layout.row#desk-somos-corebiz"
+      "flex-layout.row#desk-somos-corebiz"
       //COREBIZ NA MÍDIA
       //NEWS
       //FORM
