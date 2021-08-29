@@ -1,6 +1,6 @@
 {
   "vendor": "hiringcoders202109",
-  "name": "hcgrupo0",
+  "name": "felipesiqg9",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
@@ -25,7 +25,6 @@
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
-    "vtex.search": "2.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
@@ -47,9 +46,9 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
+    "vtex.store-link": "0.x",
     "vtex.store-icons": "0.x",
     "vtex.store-image": "0.x",
-    "vtex.store-link": "0.x",
     "vtex.product-list": "0.x",
     "vtex.checkout-summary": "0.x",
     "vtex.admin-search": "1.x",
@@ -59,7 +58,8 @@
     "vtex.modal-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.product-specifications": "1.x",
-    "vtex.apps-graphql": "3.x"
+    "vtex.apps-graphql": "3.x",
+    "vtex.store-video": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
