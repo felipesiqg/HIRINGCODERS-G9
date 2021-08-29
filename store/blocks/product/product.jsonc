@@ -11,7 +11,8 @@
       "product-questions-and-answers"
     ],
     "props": {
-      "blockClass": "productPage"
+      "blockClass": "product-page",
+      "fullWidth": true
     }
   },
 
