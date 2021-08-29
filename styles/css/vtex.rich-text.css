@@ -146,3 +146,8 @@
 .headingLevel2--infocard-mobile{
     text-align: center;
 }
+
+.heading--shelfTitle {
+    color: #000;
+    padding-left: 64px;
+}
