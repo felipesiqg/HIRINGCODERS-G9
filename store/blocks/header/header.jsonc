@@ -158,6 +158,7 @@
   },
   "header-row#menu-mobile": {
     "children": ["flex-layout.row#mobile"],
+
     "props": {
       "blockClass": "menu-header-mobile",
       "fullWidth": true
