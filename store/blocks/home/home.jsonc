@@ -2,9 +2,7 @@
   "store.home": { 
     "blocks": [
       "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile",
-      "responsive-layout.desktop#clientes", 
-      "responsive-layout.mobile#clientes"
+      "responsive-layout.mobile#mobile"
     ]
   },
 
@@ -14,6 +12,7 @@
       //WE ARE GLOBAL
       "stack-layout#deskmundo",
       //PRINCIPAIS CLIENTES
+      "stack-layout#deskclientes",
       //CASE
       "slider-layout#case-desktop",
       //SHELF
@@ -34,6 +33,7 @@
       //WE ARE GLOBAL
       "stack-layout#mobmundo",
       //PRINCIPAIS CLIENTES
+      "stack-layout#mobclientes",
       //CASE
       "slider-layout#case-mobile",
       //SHELF
