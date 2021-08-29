@@ -1,7 +1,419 @@
 {
-  "flex-layout.row#clients-section":{
-    "children":[
-      "rich-text#test"
-    ]
+  "responsive-layout.desktop#clientes":{
+      "children": ["stack-layout#deskclientes"]
+  },
+
+  "stack-layout#deskclientes": {
+      "children": [
+          "rich-text#deskclientes",
+          "flex-layout.row#desklinha1",
+          "flex-layout.row#desklinha2",
+          "flex-layout.row#desklinha3",
+          "flex-layout.row#desklinha4",
+          "flex-layout.row#desklinha5"
+      ]
+  },
+
+  // DESKTOP
+  "rich-text#deskclientes": {
+      "props": {
+          "blockClass": "desktextclientes",
+          "text": "alguns de nossos \n principais clientes",
+          "textColor": "c-on-emphasis"
+      }
+  },
+
+  "flex-layout.row#desklinha1": {
+      "props": {
+          "blockClass": "desklinha1"
+      },
+      "children": [
+          "link#parceiro1",
+          "link#parceiro2",
+          "link#parceiro3",
+          "link#parceiro4",
+          "link#parceiro5",
+          "link#parceiro6"
+      ]
+  },
+
+  "link#parceiro1": {
+      "props": {
+          "href": "https://loja.chillibeans.com.br/",
+          "target": "_blank"
+      },
+      "children": ["image#parceiro1"]
+  },
+  "link#parceiro2": {
+      "props": {
+          "href": "https://www.compradiretaempresas.com.br/",
+          "target": "_blank"
+      },
+      "children": ["image#parceiro2"]
+  },
+  "link#parceiro3": {
+      "props": {
+          "href": "https://www.semparar.com.br/",
+          "target": "_blank"
+      },
+      "children": ["image#parceiro3"]
+  },
+  "link#parceiro4": {
+      "props": {
+          "href": "https://www.motorola.com.br/",
+          "target": "_blank"
+      },
+      "children": ["image#parceiro4"]
+  },
+  "link#parceiro5": {
+      "props": {
+          "href": "https://www.choppbrahmaexpress.com.br/",
+          "target": "_blank"
+      },
+      "children": ["image#parceiro5"]
+  },
+  "link#parceiro6": {
+      "props": {
+          "href": "https://www.saraiva.com.br/",
+          "target": "_blank"
+      },
+      "children": ["image#parceiro6"]
+  },
+
+
+  "flex-layout.row#desklinha2": {
+      "props": {
+          "blockClass": "desklinha2"
+      },
+      "children": ["image#parceiro7",
+          "image#parceiro8",
+          "image#parceiro9",
+          "image#parceiro10",
+          "image#parceiro11",
+          "image#parceiro12"
+      ]
+  },
+  "flex-layout.row#desklinha3": {
+      "props": {
+          "blockClass": "desklinha3"
+      },
+      "children": [
+          "image#parceiro13",
+          "image#parceiro14",
+          "image#parceiro15",
+          "image#parceiro16",
+          "image#parceiro17",
+          "image#parceiro18"
+      ]
+  },
+  "flex-layout.row#desklinha4": {
+      "props": {
+          "blockClass": "desklinha4"
+      },
+      "children": ["image#parceiro19",
+          "image#parceiro20",
+          "image#parceiro21",
+          "image#parceiro22",
+          "image#parceiro23",
+          "image#parceiro24"
+      ]
+  },
+  "flex-layout.row#desklinha5": {
+      "props": {
+          "blockClass": "desklinha5"
+      },
+      "children": ["image#parceiro25",
+          "image#parceiro26",
+          "image#parceiro27",
+          "image#parceiro28",
+          "image#parceiro29",
+          "image#parceiro30"
+      ]
+  },
+
+
+  // MOBILE
+  "responsive-layout.mobile#clientes":{
+      "children": ["stack-layout#mobclientes"]
+  },
+  "stack-layout#mobclientes": {
+      "children":[            
+          "rich-text#mobclientes",
+          "flex-layout.row#moblinha1",
+          "flex-layout.row#moblinha2",
+          "flex-layout.row#moblinha3",
+          "flex-layout.row#moblinha4",
+          "flex-layout.row#moblinha5",
+          "flex-layout.row#moblinha6",
+          "flex-layout.row#moblinha7",
+          "flex-layout.row#moblinha8",
+          "flex-layout.row#moblinha9",
+          "flex-layout.row#moblinha10"]
+  },
+  "rich-text#mobclientes": {
+      "props": {
+          "blockClass": "mobtextclientes",
+          "text": "alguens de nossos principais \n clientes",
+          "textColor": "c-on-emphasis"
+      }
+  },
+  "flex-layout.row#moblinha1": {
+      "props": {
+          "blockClass": "moblinha1"
+      },
+      "children": [
+          "image#parceiro1",
+          "image#parceiro2",
+          "image#parceiro3"
+      ]
+  },
+  "flex-layout.row#moblinha2": {
+      "props": {
+          "blockClass": "moblinha2"
+      },
+      "children": [
+          "image#parceiro4",
+          "image#parceiro5",
+          "image#parceiro6"
+      ]
+  },
+  "flex-layout.row#moblinha3": {
+      "props": {
+          "blockClass": "moblinha3"
+      },
+      "children": [
+          "image#parceiro7",
+          "image#parceiro8",
+          "image#parceiro9"
+      ]
+  },
+      "flex-layout.row#moblinha4": {
+      "props": {
+          "blockClass": "moblinha4"
+      },
+      "children": [
+          "image#parceiro10",
+          "image#parceiro11",
+          "image#parceiro12"
+      ]
+  },
+      "flex-layout.row#moblinha5": {
+      "props": {
+          "blockClass": "moblinha5"
+      },
+      "children": [
+          "image#parceiro13",
+          "image#parceiro14",
+          "image#parceiro15"
+      ]
+  },
+      "flex-layout.row#moblinha6": {
+      "props": {
+          "blockClass": "moblinha6"
+      },
+      "children": [
+          "image#parceiro16",
+          "image#parceiro17",
+          "image#parceiro18"
+      ]
+  },
+      "flex-layout.row#moblinha7": {
+      "props": {
+          "blockClass": "moblinha7"
+      },
+      "children": [
+          "image#parceiro19",
+          "image#parceiro20",
+          "image#parceiro21"
+      ]
+  },
+      "flex-layout.row#moblinha8": {
+      "props": {
+          "blockClass": "moblinha8"
+      },
+      "children": [
+          "image#parceiro22",
+          "image#parceiro23",
+          "image#parceiro24"
+      ]
+  },
+      "flex-layout.row#moblinha9": {
+      "props": {
+          "blockClass": "moblinha9"
+      },
+      "children": [
+          "image#parceiro25",
+          "image#parceiro26",
+          "image#parceiro27"
+      ]
+  },
+      "flex-layout.row#moblinha10": {
+      "props": {
+          "blockClass": "moblinha10"
+      },
+      "children": [
+          "image#parceiro28",
+          "image#parceiro29",
+          "image#parceiro30"
+      ]
+  },
+
+
+
+
+
+
+
+
+  // imagens
+  "image#parceiro1": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-1.png"
+      }
+  },
+  "image#parceiro2": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-2.png"
+      }
+  },
+  "image#parceiro3": {
+      "props": {
+          "src": " https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-3.png"
+      }
+  },
+  "image#parceiro4": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-4.png"
+      }
+  },
+  "image#parceiro5": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-5.png"
+      }
+  },
+  "image#parceiro6": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-6.png"
+      }
+  },
+  "image#parceiro7": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-7.png"
+      }
+  },
+  "image#parceiro8": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-8.png"
+      }
+  },
+  "image#parceiro9": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-9.png"
+      }
+  },
+  "image#parceiro10": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-10.png"
+      }
+  },
+  "image#parceiro11": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-11.png"
+      }
+  },
+  "image#parceiro12": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-12.png"
+      }
+  },
+  "image#parceiro13": {
+      "props": {
+          "src": " https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-13.png"
+      }
+  },
+  "image#parceiro14": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-15.png"
+      }
+  },
+  "image#parceiro15": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-16.png"
+      }
+  },
+  "image#parceiro16": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/simmons-logo.png"
+      }
+  },
+  "image#parceiro17": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-miniso.png"
+      }
+  },
+  "image#parceiro18": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/parceiros-18.png"
+      }
+  },
+  "image#parceiro19": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-lenovo.png"
+      }
+  },
+  "image#parceiro20": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-victorinox.png"
+      }
+  },
+  "image#parceiro21": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-decathlon.png"
+      }
+  },
+  "image#parceiro22": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-singer.png"
+      }
+  },
+  "image#parceiro23": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-niveaf.png"
+      }
+  },
+  "image#parceiro24": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-kitchen.png"
+      }
+  },
+  "image#parceiro25": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-vans-1.png"
+      }
+  },
+  "image#parceiro26": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-wallmart.png"
+      }
+  },
+  "image#parceiro27": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-jansport.png"
+      }
+  },
+  "image#parceiro28": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-columbia.png"
+      }
+  },
+  "image#parceiro29": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/02/parceiros-mac.png"
+      }
+  },
+  "image#parceiro30": {
+      "props": {
+          "src": "https://www.corebiz.ag/wp-content/uploads/2021/03/logos-fundamenta.png"
+      }
   }
 }
