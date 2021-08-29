@@ -91,7 +91,6 @@
     }
   }
 
-
 .flexRow--layout-website {
     font-size: 12px;
 }
@@ -102,48 +101,47 @@
     margin-right: 0;
 }
 .flexRow--footer {
-    background: #f5f5f5;
-    position: relative;
-    overflow: hidden;
-    padding-top: 200px;
+  background: #f5f5f5;
+  position: relative;
+  overflow: hidden;
+  padding-top: 200px;
 }
 
 .flexCol--contentfooter {
-    background: #000;
-    position: relative;
-    z-index: 2;
-    margin-right: calc(50% - 680px);
-    padding: 120px 90px 160px calc(50% - 600px);
+  background: #000;
+  position: relative;
+  z-index: 2;
+  margin-right: calc(50% - 680px);
+  padding: 120px 90px 160px calc(50% - 600px);
 }
 
 .flexCol--contentfooter :global(.vtex-store-link-0-x-link) {
-    width: auto;
-    margin-left: -20px;
+  width: auto;
+  margin-left: -20px;
 }
 
 .flexRow--textcountries {
-    margin-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .flexCol--footer-logo-icon {
-    color: #fff;
+  color: #fff;
 }
 
 .flexCol--imagefooter {
-    background: #f5f5f5;
-    position: absolute;
-    text-align: right;
-    z-index: 1;
-    top: 100px;
-    left: 0;
+  background: #f5f5f5;
+  position: absolute;
+  text-align: right;
+  z-index: 1;
+  top: 100px;
+  left: 0;
 }
 
 .flexRow--footer-go-top {
-    position: absolute;
-    bottom: 60px;
-    right: -170px;
+  position: absolute;
+  bottom: 60px;
+  right: -170px;
 }
-
 
 .flexRow--footer-go-top :global(.vtex-store-link-0-x-link) {
     text-decoration: none;
