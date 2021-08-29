@@ -152,8 +152,7 @@
     background: #000;
     border-color: #000;
 }
-
-
-.flexRow--product-page{
-    background: #fff;
+.flexCol--somos-corebiz-parceros{
+  padding-left: 10px;
+  padding-right: 150px;
 }

@@ -170,3 +170,24 @@
     color: #000;
     padding-left: 64px;
 }
+.paragraph--txt-somos-corebiz{
+    color:#000;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: Circular Std Medium,sans-serif;
+
+}
+.paragraph--txt-maior-empresa{
+    color: #666;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Circular Std Medium,sans-serif;
+}
+.paragraph--txt-nossos-parceiros{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700px;
+}
+.container--txt-nossos-parceiros{
+    justify-content: center;
+}
