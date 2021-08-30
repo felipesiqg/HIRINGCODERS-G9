@@ -1,5 +1,5 @@
 {
-  "store.custom#leads": {
+/*   "store.custom#leads": {
     "blocks": ["flex-layout.row#leads"]
   },
   "flex-layout.row#leads":{
@@ -9,5 +9,5 @@
     "props": {
       "blockClass": "page-leads"
     }
-  }
+  } */
 }
