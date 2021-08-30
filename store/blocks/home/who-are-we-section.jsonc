@@ -5,7 +5,8 @@
       "flex-layout.col#desk-somos-corebiz-parceiros",
       "stack-layout#desk-somos-corebiz-video"
     ],
-    "props":{
+    "props": {
+      "fullWidth": true,
       "blockClass": "desk-somos-corebiz"
     }
   },
