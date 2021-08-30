@@ -1,147 +1,198 @@
 .paragraph {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* desktop */
 .paragraph--desktextmundo {
-    color: #ffffff;
-    line-height: 0.8;
-    font-weight: 650;
-    margin-left: 16px
+  color: #ffffff;
+  line-height: 0.8;
+  font-weight: 650;
+  margin-left: 16px;
 }
 .paragraph--desktextfrase {
-    line-height: 1;
-    font-weight: 500;
-    padding-top: 350px;
-    margin-left: 16px
+  line-height: 1;
+  font-weight: 500;
+  padding-top: 350px;
+  margin-left: 16px;
 }
 /* estilização numeros */
 .paragraph--desktextnum1 {
-    font-weight: 600;
-    padding-top: 440px;
-    margin-left: 16px
+  font-weight: 600;
+  padding-top: 440px;
+  margin-left: 16px;
 }
 .paragraph--desktextnum2 {
-    font-weight: 600;
-    padding-top: 440px;
-    margin-left: 155px;
+  font-weight: 600;
+  padding-top: 440px;
+  margin-left: 155px;
 }
 .paragraph--desktextnum3 {
-    font-weight: 600;
-    padding-top: 440px;
-    margin-left: 280px;
+  font-weight: 600;
+  padding-top: 440px;
+  margin-left: 280px;
 }
 /* estilização informações */
 .paragraph--desktextinf1 {
-    font-weight: 400;
-    padding-top: 480px;
-    margin-left: 16px;
-    line-height: 0.9;
-    color: #bfccbf;
+  font-weight: 400;
+  padding-top: 480px;
+  margin-left: 16px;
+  line-height: 0.9;
+  color: #bfccbf;
 }
 .paragraph--desktextinf2 {
-    font-weight: 400;
-    padding-top: 480px;
-    margin-left: 155px;
-    line-height: 0.9;
-    color: #bfccbf;
+  font-weight: 400;
+  padding-top: 480px;
+  margin-left: 155px;
+  line-height: 0.9;
+  color: #bfccbf;
 }
 .paragraph--desktextinf3 {
-    font-weight: 400;
-    padding-top: 480px;
-    margin-left: 280px;
-    line-height: 0.9;
-    color: #bfccbf;
+  font-weight: 400;
+  padding-top: 480px;
+  margin-left: 280px;
+  line-height: 0.9;
+  color: #bfccbf;
 }
 
 /* mobile */
 .paragraph--mobtextmundo {
-    color: #ffffff;
-    line-height: 0.8;
-    font-weight: 650;
-    margin-left: 16px
+  color: #ffffff;
+  line-height: 0.8;
+  font-weight: 650;
+  margin-left: 16px;
 }
 .paragraph--mobtextfrase {
-    line-height: 1;
-    font-weight: 500;
-    padding-top: 300px;
-    margin-left: 16px
+  line-height: 1;
+  font-weight: 500;
+  padding-top: 300px;
+  margin-left: 16px;
 }
 /* estilização numeros */
 .paragraph--mobtextnum1 {
-    font-weight: 600;
-    padding-top: 400px;
-    margin-left: 16px
+  font-weight: 600;
+  padding-top: 400px;
+  margin-left: 16px;
 }
 .paragraph--mobtextnum2 {
-    font-weight: 600;
-    padding-top: 400px;
-    margin-left: 170px;
+  font-weight: 600;
+  padding-top: 400px;
+  margin-left: 170px;
 }
 .paragraph--mobtextnum3 {
-    font-weight: 600;
-    padding-top: 400px;
-    margin-left: 300px;
+  font-weight: 600;
+  padding-top: 400px;
+  margin-left: 300px;
 }
 /* estilização informações */
 .paragraph--mobtextinf1 {
-    font-weight: 400;
-    padding-top: 435px;
-    margin-left: 16px;
-    line-height: 0.9;
-    color: #bfccbf;
+  font-weight: 400;
+  padding-top: 435px;
+  margin-left: 16px;
+  line-height: 0.9;
+  color: #bfccbf;
 }
 .paragraph--mobtextinf2 {
-    font-weight: 400;
-    padding-top: 435px;
-    margin-left: 170px;
-    line-height: 0.9;
-    color: #bfccbf;
+  font-weight: 400;
+  padding-top: 435px;
+  margin-left: 170px;
+  line-height: 0.9;
+  color: #bfccbf;
 }
 .paragraph--mobtextinf3 {
-    font-weight: 400;
-    padding-top: 435px;
-    margin-left: 300px;
-    line-height: 0.9;
-    color: #bfccbf;
-} 
+  font-weight: 400;
+  padding-top: 435px;
+  margin-left: 300px;
+  line-height: 0.9;
+  color: #bfccbf;
+}
 .paragraph--country {
-    font-size: 11px;
-    font-weight: bold;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 .strong--country {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 21px;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 21px;
 }
 
 .paragraph--copyright {
-    color: silver;
-    font-size: 14px;
-    margin-top: 64px;
-    margin-left:350px;
+  color: silver;
+  font-size: 14px;
+  margin-top: 64px;
+  margin-left: 350px;
 }
 
 .paragraph--footer-go-top {
-    margin: 5px 10px 0;
-    font-size: 14px;
+  margin: 5px 10px 0;
+  font-size: 14px;
 }
 
-.heading-level-4{
-    color: #f1c233;
-    box-sizing: border-box;
+/*CASE-SECTION*/
+
+.heading-level-2 {
+  max-width: 816px;
+  margin: 32px 0 32px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.headingLevel2--infocard-mobile {
+  text-align: center;
+}
+
+/*MEDIA SECTION*/
+
+.paragraph--media-title {
+  height: 5.5rem;
+  right: 0;
+  bottom: -5rem;
+  font-size: 75px;
+  margin: 0;
+  padding-bottom: 120px;
+  font-weight: bolder;
+}
+
+.paragraph--media-text {
+  font-size: 18px;
+  box-sizing: border-box;
+  max-width: 402px;
+  text-align: left;
+  margin: 0 0 50px 0;
+}
+
+.container--media-text {
+  justify-content: center;
+  align-items: center;
+}
+
+/*MEDIA SECTION MOBILE*/
+
+.paragraph--media-title-mobile {
+  height: 5.5rem;
+  right: 0;
+  bottom: -5rem;
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 120px;
+  font-weight: bolder;
+}
+
+.container--media-title-mobile {
+    padding-left: 20px;
     margin: 0;
-    padding: 0;
+  }
+
+.paragraph--media-text-mobile {
+  font-size: 18px;
+  box-sizing: border-box;
+  max-width: 402px;
+  text-align: left;
+  margin: 0 0 50px 0;
 }
 
-.heading-level-2{
-    max-width: 816px;
-    margin: 32px 0 32px;
-    box-sizing: border-box;
-    color: #fff;
-}
-
-.headingLevel2--infocard-mobile{
-    text-align: center;
+.container--media-text-mobile {
+  justify-content: center;
+  align-items: center;
 }

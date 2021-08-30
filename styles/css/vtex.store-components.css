@@ -1,48 +1,183 @@
-.logoImage--logo-corebiz{
-    align-items: center;
-    text-align: center;
+/*HEADER*/
+.logoImage--logo-corebiz {
+  align-items: center;
+  text-align: center;
 }
 
-.logoImage:global(.vtex-store-components-3-x-logoImage){
-    padding: 0;
+.logoImage:global(.vtex-store-components-3-x-logoImage) {
+  padding: 0;
 }
 
-.imageElement--icon-menu{
-    width: 25px;
-} 
-
-
-.infoCardContainer--infocard-desktop{
-    height: 100vh;
-    width: 100vw;
-    content: "";
-    position: relative;
-    top: 0;
-    bottom: 0;
-    background-color:white;
+.imageElement--icon-menu {
+  width: 25px;
 }
 
-.infoCardContainer--infocard-mobile{
-    height: 100vh;
-    content: "";
-    position: relative;
-    top: 0;
-    bottom: 0;
+/*CASE-SECTION*/
+
+.infoCardContainer--case-desktop {
+  height: 100vh;
+  width: 100vw;
+  content: "";
+  position: relative;
+  top: 0;
+  bottom: 0;
+  background-color: white;
 }
 
-.infoCardTextContainer--infocard-desktop{
-    padding: 0;
-    margin: 0;
-    transform: translate(70%,10%);
+.infoCardContainer--case-mobile {
+  height: 100vh;
+  width: 100vw;
+  content: "";
+  position: relative;
+  top: 0;
+  bottom: 0;
+  background-color: white;
 }
 
-.infoCardAllActionContainer:global(.vtex-button__label){
-    text-decoration: none;
-    color: #fff;
-    background-color: #2680eb;
-    padding: 17.6px 72rem 22.4rem;
-    font-size: 10px;
-    display: inline-block;
-    margin: 0;
-    box-sizing: border-box;
+.infoCardTextContainer--case-desktop {
+  padding: 0;
+  margin: 0;
+  transform: translate(70%, 10%);
 }
+
+.headingLevel4--case-desktop {
+  color: #f1c233;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.headingLevel4--case-mobile {
+  color: #f1c233;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*MEDIA SECTION DESKTOP*/
+
+.infoCardAllActionContainer-media-card1:global(.vtex-button__label) {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff6e60;
+  padding: 17.6px 72rem 22.4rem;
+  font-size: 10px;
+  display: inline-block;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.infoCardAllActionContainer-media-card2:global(.vtex-button__label) {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff6e60;
+  padding: 17.6px 72rem 22.4rem;
+  font-size: 10px;
+  display: inline-block;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.infoCardHeadline--media-card1 {
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: bold;
+  font-size: 28px;
+  justify-content: left;
+}
+
+.infoCardHeadline--media-card2 {
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: bold;
+  font-size: 28px;
+  justify-content: left;
+  padding-right: 5%;
+}
+
+.infoCardTextContainer--media-card1 {
+  width: 100%;
+  align-items: left;
+  background-color: #ff6e60;
+  margin: 0;
+}
+.infoCardTextContainer--media-card2 {
+  width: 100%;
+  align-items: left;
+  background-color: #91a7d0;
+  margin: 0;
+}
+
+.infoCardContainer--media-card1 {
+  padding: 0 15%;
+  border-color: #ff6e60;
+}
+
+.infoCardContainer--media-card2 {
+  padding: 0 15%;
+  border-color: #91a7d0;
+}
+/*MEDIA SECTION MOBILE*/
+
+.infoCardHeadline--media-card1-mobile {
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 28px;
+  justify-content: left;
+  width: auto;
+  background-color: #ff6e60;
+}
+
+.infoCardHeadline--media-card2-mobile {
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 28px;
+  justify-content: left;
+  width: 100vw;
+}
+
+.infoCardTextContainer--media-card1-mobile {
+  align-items: left;
+  justify-content: center;
+  width: max-content;
+  background-color: #ff6e60;
+}
+.infoCardTextContainer--media-card2-mobile {
+  align-items: left;
+  width: max-content;
+  margin: 0;
+}
+
+.infoCardContainer--media-card1-mobile {
+  padding: 0 15%;
+  border-color: #ff6e60;
+  border: none;
+}
+
+.infoCardContainer--media-card2-mobile {
+  padding: 0 15%;
+  border-color: #91a7d0;
+  padding-top: 0 5%;
+  border: none
+}
+/* vtex-store-components-3-x-infoCardTextContainer--media-card1 */

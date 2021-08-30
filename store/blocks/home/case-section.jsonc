@@ -14,42 +14,34 @@
       },
       "infinite": true,
       "blockClass": "slider-desktop",
-      "showPaginationDots": "never"
+      "showPaginationDots": "never",
+      "arrowSize":"15px"
     }
   },
   "info-card#chillibeans-desktop": {
     "props": {
-      "id": "info-card-example",
-      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-chillibeans-min.jpg",
+      "id": "chillibeans-desktop",
+      "imageUrl": "assets/case-slider-chillibeans-min.jpg",
       "isFullModeStyle": true,
       "headline": "#### case",
       "subhead": "## 5x mais receita no E-<br/>commerce da<br/>ChilliBeans",
       "callToActionText": "ver case completo",
       "textPosition": "left",
       "textMode": "rich-text",
-      "blockClass": "infocard-desktop"
-    }
-  },
-  "rich-text#case1": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "faturamento<br>ecommerce c&c",
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-6",
-      "blockClass": "case1"
+      "blockClass": "case-desktop"
     }
   },
   "info-card#cec-desktop": {
     "props": {
-      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-cc-min.jpg",
+      "id": "cec-desktop",
+      "imageUrl": "assets/case-slider-cc-min.jpg",
       "isFullModeStyle": true,
       "headline": "#### case",
       "subhead": "## elevação do <br/> faturamento do <br/> ecommerce de c&c",
       "callToActionText": "ver case completo",
       "textPosition": "left",
       "textMode": "rich-text",
-      "blockClass": "infocard-desktop"
+      "blockClass": "case-desktop"
     }
   },
   "rich-text#case2": {
@@ -64,14 +56,15 @@
   },
   "info-card#kitchen-desktop": {
     "props": {
-      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-kitchenaid-min.jpg",
+      "id": "kitchen-desktop",
+      "imageUrl": "assets/case-slider-kitchenaid-min.jpg",
       "isFullModeStyle": true,
       "headline": "#### case",
       "subhead": "## aumento do volume <br/> de vendas kitchenaid",
       "callToActionText": "ver case completo",
       "textPosition": "left",
       "textMode": "rich-text",
-      "blockClass": "infocard-desktop"
+      "blockClass": "case-desktop"
     }
   },
   "rich-text#case3": {
@@ -86,14 +79,15 @@
   },
   "info-card#semparar-desktop": {
     "props": {
-      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-black-friday-min.jpg",
+      "id": "semparar-desktop",
+      "imageUrl": "assets/case-slider-black-friday-min.jpg",
       "isFullModeStyle": true,
       "headline": "#### case",
       "subhead": "## maior ação de <br/> vendas do semparar <br/> na blackfriday",
       "callToActionText": "ver case completo",
       "textPosition": "left",
       "textMode": "rich-text",
-      "blockClass": "infocard-desktop"
+      "blockClass": "case-desktop"
     }
   },
   "rich-text#case4": {
@@ -124,18 +118,31 @@
       "showPaginationDots": "never"
     }
   },
+  "stack-layout#chillibeans-mobile": {
+    "children": ["info-card#cec-mobile"]
+  },
   "info-card#chillibeans-mobile": {
     "props": {
-      "id": "info-card-example",
-      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-chillibeans-min.jpg",
+      "id": "chillibeans-mobile",
+      "imageUrl": "assets/case-slider-chillibeans-min.jpg",
       "isFullModeStyle": true,
       "headline": "#### case",
       "subhead": "## 5x mais receita no E-commerce da ChilliBeans",
       "callToActionText": "ver case completo",
       "textPosition": "center",
       "textMode": "rich-text",
-      "blockClass": "infocard-mobile",
+      "blockClass": "case-mobile",
       "textAlignment": "center"
+    }
+  },
+  "rich-text#case1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "faturamento<br>ecommerce c&c",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "case1"
     }
   },
   "stack-layout#cec-mobile": {
@@ -143,14 +150,15 @@
   },
   "info-card#cec-mobile": {
     "props": {
-      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-cc-min.jpg",
+      "id": "cec-mobile",
+      "imageUrl": "assets/case-slider-cc-min.jpg",
       "isFullModeStyle": true,
       "headline": "#### case",
       "subhead": "## elevação do faturamento do ecommerce de c&c",
       "callToActionText": "ver case completo",
       "textPosition": "center",
       "textMode": "rich-text",
-      "blockClass": "infocard-mobile",
+      "blockClass": "case-mobile",
       "textAlignment": "center"
     }
   },
@@ -159,27 +167,32 @@
   },
   "info-card#kitchen-mobile": {
     "props": {
-      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-kitchenaid-min.jpg",
+        "id": "kitchen-mobile",
+      "imageUrl": "assets/case-slider-kitchenaid-min.jpg",
       "isFullModeStyle": true,
       "headline": "#### case",
       "subhead": "## aumento do volume de vendas kitchenaid",
       "callToActionText": "ver case completo",
       "textPosition": "center",
       "textMode": "rich-text",
-      "blockClass": "infocard-mobile",
+      "blockClass": "case-mobile",
       "textAlignment": "center"
     }
   },
+  "stack-layout#semparar-mobile": {
+    "children": ["info-card#kitchen-mobile"]
+  },
   "info-card#semparar-mobile": {
     "props": {
-      "imageUrl": "https://www.corebiz.ag/wp-content/uploads/2020/06/case-slider-black-friday-min.jpg",
+        "id": "kitchen-mobile",
+      "imageUrl": "assets/case-slider-black-friday-min.jpg",
       "isFullModeStyle": true,
       "headline": "#### case",
       "subhead": "## maior ação de vendas do semparar na blackfriday",
       "callToActionText": "ver case completo",
       "textPosition": "center",
       "textMode": "rich-text",
-      "blockClass": "infocard-mobile",
+      "blockClass": "case-mobile",
       "textAlignment": "center"
     }
   }

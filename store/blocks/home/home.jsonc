@@ -7,9 +7,9 @@
   },
   // DESKTOP
   "responsive-layout.desktop#desktop": {
-    "children": ["stack-layout#deskmundo", "slider-layout#case-desktop"]
+    "children": ["stack-layout#deskmundo", "slider-layout#case-desktop", "flex-layout.row#media-section-desktop"]
   }, // MOBILE
   "responsive-layout.mobile#mobile": {
-    "children": ["stack-layout#mobmundo", "slider-layout#case-mobile"]
+    "children": ["stack-layout#mobmundo", "slider-layout#case-mobile","flex-layout.row#media-section-mobile"]
   }
 }

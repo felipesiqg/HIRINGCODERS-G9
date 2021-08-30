@@ -1,7 +1,256 @@
 {
-  "flex-layout.row#media-section":{
-    "children":[
-      "rich-text#test"
-    ]
-  }
+    "flex-layout.row#on-media": {
+        "props": {
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "on-media-container"
+        },
+        "children": [
+          "flex-layout.col#media-container"
+        ]
+      },
+      "flex-layout.row#media-section-desktop": {
+        "props": {
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "media-section-container"
+        },
+        "children": [
+          "flex-layout.col#media-container"
+        ]
+      },
+    
+      "flex-layout.col#media-container": {
+        "props": {
+          "blockClass": "media-text-container"
+        },
+        "children": [
+          "rich-text#media-title",
+          "flex-layout.row#media-text"
+        ]
+      },
+      "rich-text#media-title": { 
+        "props": { 
+          "text": "corebiz na mídia.",
+          "blockClass": "media-title"
+        }
+      },
+      "flex-layout.row#media-text": {
+        "props": {
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "media-slider-text-container"
+        },
+        "children": [
+          "rich-text#text",
+          "slider-layout#media-slider"
+        ]
+      },
+      "rich-text#text": { 
+        "props": { 
+          "text": "As atuações na Corebiz no mercado de comércios digitais chamaram a atenção da mídia em muitos aspectos. Veja algumas menções sobre nós em grandes mídias:",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "media-text"
+        }
+      },
+      "slider-layout#media-slider": {
+        "children": [
+          "flex-layout.col#slider-card-1", 
+          "flex-layout.col#slider-card-2"
+        ],
+        "props": {
+          "itemsPerPage": {
+            "desktop": 2,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "mobileOnly",
+          "showPaginationDots": "never",
+          "blockClass": "media-slider"
+        }
+      },
+      "flex-layout.col#slider-card-1": {
+        "props": {
+          "blockClass": "slider-card-1"
+        },
+        "children": [
+          "image#media-epoca",
+          "info-card#media-card1"
+        ]
+      },
+      "info-card#media-card1": {
+        "props": {
+          "id": "media-card1",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+/*           "imageUrl": "assets/aspas.png", */
+          "headline": "vendas online de alimentos aumentam 330% durante pandemia.",
+          "subhead": "20 de abril, 2020",
+          "callToActionText": "ver postagem",
+          "callToActionUrl": "/",
+          "blockClass": "media-card1"
+        }
+      },
+      "image#media-epoca": {
+        "props": {
+          "src": "assets/logo-epoca.png",
+          "maxHeight": 30,
+          "blockClass": "media-image-epoca"
+        }
+      },
+    "flex-layout.col#slider-card-2": {
+      "props": {
+        "blockClass": "slider-card-2"
+      },
+      "children": [
+        "image#media-msn",
+        "info-card#media-card2"
+      ]
+    },
+    "info-card#media-card2": {
+      "props": {
+        "id": "media-card2",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+/*         "imageUrl": "assets/aspas.png", */
+        "headline": "de olho na transformação do mercado, corebiz expande operação no brasil.",
+        "subhead": "8 de janeiro, 2020",
+        "callToActionText": "ver postagem",
+        "callToActionUrl": "/",
+        "blockClass": "media-card2"
+      }
+    },
+    "image#media-msn": {
+      "props": {
+        "src": "assets/logo-msn.png",
+        "maxHeight": 30,
+        "blockClass": "media-image-msn"
+      }
+    },
+    "flex-layout.row#on-media-mobile": {
+        "props": {
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "on-media-container-mobile"
+        },
+        "children": [
+          "flex-layout.col#media-container-mobile"
+        ]
+      },
+      "flex-layout.row#media-section-mobile": {
+        "props": {
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "media-section-container-mobile"
+        },
+        "children": [
+          "flex-layout.col#media-container-mobile"
+        ]
+      },
+    
+      "flex-layout.col#media-container-mobile": {
+        "props": {
+          "blockClass": "media-text-container-mobile"
+        },
+        "children": [
+          "rich-text#media-title-mobile",
+          "flex-layout.row#media-text-mobile"
+        ]
+      },
+      "rich-text#media-title-mobile": { 
+        "props": { 
+          "text": "corebiz na mídia.",
+          "blockClass": "media-title-mobile"
+        }
+      },
+      "flex-layout.row#media-text-mobile": {
+        "props": {
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass": "media-slider-text-container-mobile"
+        },
+        "children": [
+          "rich-text#text-mobile",
+          "slider-layout#media-slider-mobile"
+        ]
+      },
+      "rich-text#text-mobile": { 
+        "props": { 
+          "text": "As atuações na Corebiz no mercado de comércios digitais chamaram a atenção da mídia em muitos aspectos. Veja algumas menções sobre nós em grandes mídias:",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "media-text-mobile"
+        }
+      },
+      "slider-layout#media-slider-mobile": {
+        "children": [
+          "flex-layout.col#slider-card-1-mobile", 
+          "flex-layout.col#slider-card-2-mobile"
+        ],
+        "props": {
+          "blockClass":"media-slider-mobile",
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "mobileOnly",
+          "showPaginationDots": "never"
+      }
+    },
+      "flex-layout.col#slider-card-1-mobile": {
+        "props": {
+          "blockClass": "slider-card-1-mobile"
+        },
+        "children": [
+          "image#media-epoca",
+          "info-card#media-card1"
+        ]
+      },
+      "info-card#media-card1-mobile": {
+        "props": {
+          "id": "media-card1-mobile",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+/*           "imageUrl": "assets/aspas.png", */
+          "headline": "vendas online de alimentos aumentam 330% durante pandemia.",
+          "subhead": "20 de abril, 2020",
+          "callToActionText": "ver postagem",
+          "callToActionUrl": "/",
+          "blockClass": "media-card1-mobile"
+        }
+      },
+    "flex-layout.col#slider-card-2-mobile": {
+      "props": {
+        "blockClass": "slider-card-2-mobile"
+      },
+      "children": [
+        "image#media-msn",
+        "info-card#media-card2-mobile"
+      ]
+    },
+    "info-card#media-card2-mobile": {
+      "props": {
+        "id": "media-card2-mobile",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+/*         "imageUrl": "assets/aspas.png", */
+        "headline": "de olho na transformação do mercado, corebiz expande operação no brasil.",
+        "subhead": "8 de janeiro, 2020",
+        "callToActionText": "ver postagem",
+        "callToActionUrl": "/",
+        "blockClass": "media-card2-mobile"
+      }
+    }
 }
+
+
