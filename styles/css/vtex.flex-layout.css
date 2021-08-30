@@ -147,6 +147,12 @@
   border-color: #000;
 }
 
+.flexCol--somos-corebiz-parceros {
+  padding: 125px 120px 125px calc(50% - 170px);
+}
+
+.flexRowContent--desk-img-parceiros {
+  align-items: center;
 .flexRow--product-page{
   background: #fff;
 }
@@ -154,6 +160,7 @@
   padding-left: 10px;
   padding-right: 150px;
 }
+
 .flexRow--breacrumb-product{
   margin-top: 70px;
 }
