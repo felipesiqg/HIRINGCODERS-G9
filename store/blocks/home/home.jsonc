@@ -1,5 +1,5 @@
 {
-  "store.home": {
+  "store.home": { 
     "blocks": [
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile"
@@ -19,6 +19,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       //FRAMEWORK
+      "stack-layout#deskframework",
       //SOMOS A COREBIZ
       "flex-layout.row#desk-somos-corebiz"
       //COREBIZ NA MÍDIA
@@ -38,9 +39,11 @@
       "slider-layout#case-mobile",
       //SHELF
       "rich-text#shelf-title",
-      "flex-layout.row#shelf"
+      "flex-layout.row#shelf",
       //FRAMEWORK
+      "stack-layout#mobframework",
       //SOMOS A COREBIZ
+      "flex-layout.row#mobile-somos-corebiz"
       //COREBIZ NA MÍDIA
       //NEWS
       //FORM

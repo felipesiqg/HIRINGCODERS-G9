@@ -1,10 +1,7 @@
 {
-    "responsive-layout.desktop#desktop":{
-        "children": ["stack-layout#deskclientes"]
-    },
-  
     "stack-layout#deskclientes": {
         "children": [
+            "image#deskframefundo",
             "rich-text#deskclientes",
             "flex-layout.row#desklinha1",
             "flex-layout.row#desklinha2",
@@ -13,7 +10,7 @@
             "flex-layout.row#desklinha5"
         ]
     },
-  
+
     // DESKTOP
     "rich-text#deskclientes": {
         "props": {
@@ -22,7 +19,7 @@
             "textColor": "c-on-emphasis"
         }
     },
-  
+
     "flex-layout.row#desklinha1": {
         "props": {
             "blockClass": "desklinha1"
@@ -36,7 +33,7 @@
             "link#parceiro6"
         ]
     },
-  
+
     "link#parceiro1": {
         "props": {
             "href": "https://loja.chillibeans.com.br/",
@@ -79,8 +76,8 @@
         },
         "children": ["image#parceiro6"]
     },
-  
-  
+
+
     "flex-layout.row#desklinha2": {
         "props": {
             "blockClass": "desklinha2"
@@ -130,14 +127,13 @@
             "image#parceiro30"
         ]
     },
-  
-  
+
+
     // MOBILE
-    "responsive-layout.mobile#mobile":{
-        "children": ["stack-layout#mobclientes"]
-    },
+
     "stack-layout#mobclientes": {
-        "children":[            
+        "children": [
+            "image#mobclientefundo",
             "rich-text#mobclientes",
             "flex-layout.row#moblinha1",
             "flex-layout.row#moblinha2",
@@ -148,12 +144,20 @@
             "flex-layout.row#moblinha7",
             "flex-layout.row#moblinha8",
             "flex-layout.row#moblinha9",
-            "flex-layout.row#moblinha10"]
+            "flex-layout.row#moblinha10"
+        ]
+    },
+    "image#mobclientefundo": {
+        "props": {
+            "blockClass": "mobclientefundo",
+            "src": "https://www.publicdomainpictures.net/pictures/190000/velka/black-background-1468370534d5s.jpg",
+            "width": "100%"
+        }
     },
     "rich-text#mobclientes": {
         "props": {
             "blockClass": "mobtextclientes",
-            "text": "alguens de nossos principais \n clientes",
+            "text": "alguns de nossos principais \n clientes",
             "textColor": "c-on-emphasis"
         }
     },
@@ -187,7 +191,7 @@
             "image#parceiro9"
         ]
     },
-        "flex-layout.row#moblinha4": {
+    "flex-layout.row#moblinha4": {
         "props": {
             "blockClass": "moblinha4"
         },
@@ -197,7 +201,7 @@
             "image#parceiro12"
         ]
     },
-        "flex-layout.row#moblinha5": {
+    "flex-layout.row#moblinha5": {
         "props": {
             "blockClass": "moblinha5"
         },
@@ -207,7 +211,7 @@
             "image#parceiro15"
         ]
     },
-        "flex-layout.row#moblinha6": {
+    "flex-layout.row#moblinha6": {
         "props": {
             "blockClass": "moblinha6"
         },
@@ -217,7 +221,7 @@
             "image#parceiro18"
         ]
     },
-        "flex-layout.row#moblinha7": {
+    "flex-layout.row#moblinha7": {
         "props": {
             "blockClass": "moblinha7"
         },
@@ -227,7 +231,7 @@
             "image#parceiro21"
         ]
     },
-        "flex-layout.row#moblinha8": {
+    "flex-layout.row#moblinha8": {
         "props": {
             "blockClass": "moblinha8"
         },
@@ -237,7 +241,7 @@
             "image#parceiro24"
         ]
     },
-        "flex-layout.row#moblinha9": {
+    "flex-layout.row#moblinha9": {
         "props": {
             "blockClass": "moblinha9"
         },
@@ -247,7 +251,7 @@
             "image#parceiro27"
         ]
     },
-        "flex-layout.row#moblinha10": {
+    "flex-layout.row#moblinha10": {
         "props": {
             "blockClass": "moblinha10"
         },
@@ -257,14 +261,14 @@
             "image#parceiro30"
         ]
     },
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
     // imagens
     "image#parceiro1": {
         "props": {
@@ -416,4 +420,4 @@
             "src": "https://www.corebiz.ag/wp-content/uploads/2021/03/logos-fundamenta.png"
         }
     }
-  }
+}

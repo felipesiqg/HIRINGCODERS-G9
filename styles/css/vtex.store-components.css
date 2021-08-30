@@ -51,7 +51,34 @@
     box-sizing: border-box;
 } 
 
+.imageElement--deskframework {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.imageElement--deskframemouse {
+    margin-left: 450px;
+    margin-top: 490px;
+}
+
+.imageElement--mobframework {
+    margin-top: 75px;
+}
+
+.imageElement--mobmundo{
+    max-height: 800px;
+}
+
+.imageElement--mobclientefundo {
+    height: 850px;
+}
 .showMoreButton {
     color: #000;
     background-color: #fff;
 }
+.container.ph3.ph5-m.ph2-xl.mw9.center {
+    padding: 0px !important
+}
+.flexRow--desk-somos-corebiz .vtex-store-components-3-x-container{
+    padding: 0 !important;
+  }
