@@ -11,7 +11,7 @@
         "flex-layout.row#icons"
         ],
         "props": {
-        "width": "10%"
+        "width": "12%"
         }
     },
     "flex-layout.row#follow": {
