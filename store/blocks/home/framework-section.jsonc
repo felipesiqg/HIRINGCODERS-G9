@@ -1,12 +1,196 @@
 {
-  "flex-layout.row#framework-section":{
-    "children":[
-      "rich-text#test"
+  // DESKTOP
+
+  "stack-layout#deskframework": {
+    "children": [
+      "image#deskframefundo",
+      "image#deskframe",
+      "rich-text#deskframetitulo",
+      "rich-text#deskframetexto1",
+      "rich-text#deskframetexto2",
+      "image#deskframemouse",
+      "rich-text#deskframetexto3",
+      "rich-text#deskframetexto4",
+      "rich-text#deskframetexto5",
+      "rich-text#deskframetexto6"
     ]
   },
-  "rich-text#test":{
-    "props":{
-      "text": "Hello World!"
+  "image#deskframefundo": {
+    "props": {
+      "src": "https://www.publicdomainpictures.net/pictures/190000/velka/black-background-1468370534d5s.jpg",
+      "width": "100%"
+    }
+  },
+  "image#deskframe": {
+    "props": {
+      "blockClass": "deskframework",
+      "width": "75%",
+      "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/our-framework-background.png"
+    }
+  },
+  "rich-text#deskframetitulo": {
+    "props": {
+      "text": "nosso framework \n de transformação \n digital.",
+      "font": "t-heading-1",
+      "textPosition": "TOP",
+      "textAlignment": "LEFT",
+      "blockClass": "deskframetitulo",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#deskframetexto1": {
+    "props": {
+      "text": "A Corebiz atua em toda jornada digital do usuário. Desde a \n configuração de plataformas, implementações e integrações, até a \n entrega de uma excelente experiência de consumo.",
+      "font": "t-heading-7",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "deskframetexto1",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#deskframetexto2": {
+    "props": {
+      "text": "Juntamente com toda a equipe de marketing trabalhando para uma \n melhor performance digital, o que qualifica ainda mais a entrega da \n jornada do usuário.",
+      "font": "t-heading-7",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "deskframetexto2",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#deskframetexto3": {
+    "props": {
+      "text": "Veja ao lado nosso framework",
+      "font": "t-heading-5",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "deskframetexto3",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "image#deskframemouse": {
+    "props": {
+      "blockClass": "deskframemouse",
+      "width": "4%",
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi43MTMiIGhlaWdodD0iMjMuNzM0Ij48ZyBkYXRhLW5hbWU9IkdydXBvIDQwMjAiPjxnIGRhdGEtbmFtZT0iR3J1cG8gMzg2NiI+PGcgZGF0YS1uYW1lPSJHcnVwbyAzODY1Ij48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gMjkzIiBkPSJNOC4zNTcgMEE4LjQzMiA4LjQzMiAwIDAwMCA4LjQ4OHY2Ljc1OWE4LjM1NyA4LjM1NyAwIDEwMTYuNzEzLjAyNlY4LjQ4OEE4LjQzMyA4LjQzMyAwIDAwOC4zNTcgMHptNi43ODUgMTUuMjcyYTYuNzg2IDYuNzg2IDAgMTEtMTMuNTctLjAyNlY4LjQ4OGE2Ljc4NiA2Ljc4NiAwIDExMTMuNTcgMHoiIGZpbGw9IiNmZmYiLz48L2c+PC9nPjxnIGRhdGEtbmFtZT0iR3J1cG8gMzg2OCI+PGcgZGF0YS1uYW1lPSJHcnVwbyAzODY3Ij48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gMjk0IiBkPSJNOC4zNTcgNi40OTdhLjc4Ni43ODYgMCAwMC0uNzg2Ljc4NnYyLjc1MWEuNzg2Ljc4NiAwIDAwMS41NzIgMFY3LjI4M2EuNzg2Ljc4NiAwIDAwLS43ODYtLjc4NnoiIGZpbGw9IiNmZmYiLz48L2c+PC9nPjwvZz48L3N2Zz4="
+    }
+  },
+  "rich-text#deskframetexto4": {
+    "props": {
+      "text": "business units",
+      "font": "t-heading-4",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "deskframetexto4",
+      "textColor": "c-on-second-emphasis"
+    }
+  },
+  "rich-text#deskframetexto5": {
+    "props": {
+      "text": "experience \n technology \n marketing",
+      "font": "t-heading-6",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "deskframetexto5",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#deskframetexto6": {
+    "props": {
+      "text": "Passe o mouse para saber mais:",
+      "font": "t-heading-5",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "deskframetexto6",
+      "textColor": "c-on-emphasis"
+    }
+  },
+
+  // MOBILE
+
+  "stack-layout#mobframework": {
+    "children": [
+      "image#mobframefundo",
+      "image#mobframe",
+      "rich-text#mobframetitulo",
+      "rich-text#mobframetexto1",
+      "rich-text#mobframetexto2",
+      "rich-text#mobframetexto4",
+      "rich-text#mobframetexto5",
+      "rich-text#mobframetexto3"
+    ]
+  },
+  "image#mobframefundo": {
+    "props": {
+      "src": "https://www.publicdomainpictures.net/pictures/190000/velka/black-background-1468370534d5s.jpg",
+      "width": "100%"
+    }
+  },
+  "image#mobframe": {
+    "props": {
+      "blockClass": "mobframework",
+      "width": "150%",
+      "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/our-framework-background.png"
+    }
+  },
+  "rich-text#mobframetitulo": {
+    "props": {
+      "text": "nosso framework de \n transformação digital.",
+      "font": "t-heading-1",
+      "textPosition": "TOP",
+      "textAlignment": "LEFT",
+      "blockClass": "mobframetitulo",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#mobframetexto1": {
+    "props": {
+      "text": "A Corebiz atua em toda jornada digital do usuário. Desde a configuração de \n plataformas, implementações e integrações, até a entrega de uma excelente \n experiência de consumo.",
+      "font": "t-heading-7",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "mobframetexto1",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#mobframetexto2": {
+    "props": {
+      "text": "Juntamente com toda a equipe de marketing trabalhando para uma melhor \n performance digital, o que qualifica ainda mais a entrega da jornada do usuário.",
+      "font": "t-heading-7",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "mobframetexto2",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#mobframetexto3": {
+    "props": {
+      "text": "Veja ao lado nosso framework",
+      "font": "t-heading-5",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "mobframetexto3",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "rich-text#mobframetexto4": {
+    "props": {
+      "text": "business units",
+      "font": "t-heading-4",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "mobframetexto4",
+      "textColor": "c-on-second-emphasis"
+    }
+  },
+  "rich-text#mobframetexto5": {
+    "props": {
+      "text": "experience \n technology \n marketing",
+      "font": "t-heading-6",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "mobframetexto5",
+      "textColor": "c-on-emphasis"
     }
   }
 }

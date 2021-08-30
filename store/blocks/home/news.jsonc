@@ -1,7 +1,7 @@
 {
-  "flex-layout.row#news-section":{
-    "children":[
-      "rich-text#test"
-    ]
-  }
+  // "flex-layout.row#news-section":{
+  //   "children":[
+  //     "rich-text#test"
+  //   ]
+  // }
 }
