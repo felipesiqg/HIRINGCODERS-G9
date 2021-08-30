@@ -16,11 +16,6 @@
     width: 25px;
 }
 
-/* Cor do texto do buy button no mesmo amarelo que aparece no mapa */
-.buyButtonText{
-    color: #f1c233;
-}
-
 .infoCardContainer--infocard-desktop{
     height: 100vh;
     width: 100vw;
@@ -76,4 +71,8 @@
 
 .imageElement--mobclientefundo {
     height: 850px;
+}
+.showMoreButton {
+    color: #000;
+    background-color: #fff;
 }

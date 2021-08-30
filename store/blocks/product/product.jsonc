@@ -28,7 +28,8 @@
 
   "flex-layout.row#product-breadcrumb": {
     "props": {
-      "marginTop": 4
+      "marginTop": 4,
+      "blockClass": "breacrumb-product"
     },
     "children": ["breadcrumb"]
   },
