@@ -23,6 +23,7 @@
       //SOMOS A COREBIZ
       "flex-layout.row#desk-somos-corebiz"
       //COREBIZ NA MÍDIA
+      "flex-layout.row#media-section-desktop"
       //NEWS
       //FORM
 //      "formulario"
@@ -47,6 +48,7 @@
       //SOMOS A COREBIZ
       "flex-layout.row#mobile-somos-corebiz"
       //COREBIZ NA MÍDIA
+      "flex-layout.row#media-section-mobile"
       //NEWS
       //FORM
 //      "formulario"
