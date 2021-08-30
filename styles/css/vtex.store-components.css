@@ -1,0 +1,57 @@
+
+.imageElement {
+    size: 10%;
+}
+
+.logoImage--logo-corebiz{
+    align-items: center;
+    text-align: center;
+}
+
+.logoImage:global(.vtex-store-components-3-x-logoImage){
+    padding: 0;
+}
+
+.imageElement--icon-menu{
+    width: 25px;
+}
+
+.infoCardContainer--infocard-desktop{
+    height: 100vh;
+    width: 100vw;
+    content: "";
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-color:white;
+}
+
+.infoCardContainer--infocard-mobile{
+    height: 100vh;
+    content: "";
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.infoCardTextContainer--infocard-desktop{
+    padding: 0;
+    margin: 0;
+    transform: translate(70%,10%);
+}
+
+.infoCardAllActionContainer:global(.vtex-button__label){
+    text-decoration: none;
+    color: #fff;
+    background-color: #2680eb;
+    padding: 17.6px 72rem 22.4rem;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+.showMoreButton {
+    color: #000;
+    background-color: #fff;
+}
