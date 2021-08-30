@@ -9,7 +9,7 @@
 
 ## O que isto faz?
 
-Criamos uma réplica do site oficial da <a href=https://www.corebiz.ag/pt/>CoreBiz</a> utilizando recursos do VTEX IO, adicionando à página principal uma seção de serviços a venda, página do produto,<a href=https://github.com/vtex-apps/minicart> minicart </a> e incluido uma <a href=https://github.com/guiaech/listleads>página de leads</a> através da API AWS puxando informações da seção <a href=https://github.com/guiaech/store-block-template>formulário</a> adicionando <a href=https://github.com/guiaech/export_vtex>informação de compra</a> com checagem do usário através da <a href=https://github.com/vtex-apps/service-example>API Vtex</a>.
+Criamos uma réplica do site oficial da <a href=https://www.corebiz.ag/pt/>Corebiz</a> utilizando recursos do VTEX IO, adicionando à página principal uma seção de serviços a venda, página do produto,<a href=https://github.com/vtex-apps/minicart> minicart </a> e incluido uma <a href=https://github.com/guiaech/listleads>página de leads</a> através da API AWS puxando informações da seção <a href=https://github.com/guiaech/store-block-template>formulário</a> adicionando <a href=https://github.com/guiaech/export_vtex>informação de compra</a> com checagem do usário através da <a href=https://github.com/vtex-apps/service-example>API Vtex</a>.
 
 ## Seções
 
