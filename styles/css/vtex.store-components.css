@@ -54,4 +54,26 @@
     display: inline-block;
     margin: 0;
     box-sizing: border-box;
+} 
+
+.imageElement--deskframework {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.imageElement--deskframemouse {
+    margin-left: 450px;
+    margin-top: 490px;
+}
+
+.imageElement--mobframework {
+    margin-top: 75px;
+}
+
+.imageElement--mobmundo{
+    max-height: 800px;
+}
+
+.imageElement--mobclientefundo {
+    height: 850px;
 }
