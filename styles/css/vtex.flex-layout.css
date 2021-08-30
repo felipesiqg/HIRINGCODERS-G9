@@ -357,3 +357,11 @@
 .flexRow--page-leads{
   margin-top: 70px;
 }
+.flexRow--secao-clientes{
+  background-color: #000;
+  padding-bottom: 70px;
+  margin-top: -5px;
+}
+.flexRow--desk-somos-corebiz{
+  margin-top: -4px;
+}

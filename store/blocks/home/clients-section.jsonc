@@ -1,4 +1,22 @@
 {
+    "flex-layout.row#clientes":{
+        "children":[
+           "flex-layout.col#clientes-col" 
+        ],
+        "props":{
+            "blockClass": "secao-clientes"
+        }
+    },
+    "flex-layout.col#clientes-col":{
+        "children":[    
+      "flex-layout.row#deskclients-section-text",
+      "flex-layout.row#deskclients-section1",
+      "flex-layout.row#deskclients-section2",
+      "flex-layout.row#deskclients-section3",
+      "flex-layout.row#deskclients-section4",
+      "flex-layout.row#deskclients-section5"
+        ]
+    },
     "flex-layout.row#deskclients-section-text": {
         "children": [
             "rich-text#deskclients"
