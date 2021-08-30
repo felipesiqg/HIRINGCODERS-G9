@@ -1,27 +1,38 @@
 {
-    "stack-layout#deskclientes": {
-        "children": [
-            "image#deskframefundo",
-            "rich-text#deskclientes",
-            "flex-layout.row#desklinha1",
-            "flex-layout.row#desklinha2",
-            "flex-layout.row#desklinha3",
-            "flex-layout.row#desklinha4",
-            "flex-layout.row#desklinha5"
-        ]
-    },
-
-    // DESKTOP
-    "rich-text#deskclientes": {
-        "props": {
-            "blockClass": "desktextclientes",
-            "text": "alguns de nossos \n principais clientes",
-            "textColor": "c-on-emphasis"
+    "flex-layout.row#clientes":{
+        "children":[
+           "flex-layout.col#clientes-col" 
+        ],
+        "props":{
+            "blockClass": "secao-clientes"
         }
     },
-
-    "flex-layout.row#desklinha1": {
+    "flex-layout.col#clientes-col":{
+        "children":[    
+      "flex-layout.row#deskclients-section-text",
+      "flex-layout.row#deskclients-section1",
+      "flex-layout.row#deskclients-section2",
+      "flex-layout.row#deskclients-section3",
+      "flex-layout.row#deskclients-section4",
+      "flex-layout.row#deskclients-section5"
+        ]
+    },
+    "flex-layout.row#deskclients-section-text": {
+        "children": [
+            "rich-text#deskclients"
+        ]
+    },
+    "rich-text#deskclients": {
         "props": {
+            "textAlignment": "LEFT",
+            "text": "alguns de nossos \n principais clientes",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-3",
+            "blockClass": "desktextclientes"
+        }
+    },
+    "flex-layout.row#deskclients-section1": {
+        "props":{
             "blockClass": "desklinha1"
         },
         "children": [
@@ -33,234 +44,487 @@
             "link#parceiro6"
         ]
     },
-
     "link#parceiro1": {
         "props": {
             "href": "https://loja.chillibeans.com.br/",
-            "target": "_blank"
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
-        "children": ["image#parceiro1"]
+        "children": [
+            "image#parceiro1"
+        ]
     },
     "link#parceiro2": {
         "props": {
             "href": "https://www.compradiretaempresas.com.br/",
-            "target": "_blank"
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
-        "children": ["image#parceiro2"]
+        "children": [
+            "image#parceiro2"
+        ]
     },
     "link#parceiro3": {
         "props": {
             "href": "https://www.semparar.com.br/",
-            "target": "_blank"
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
-        "children": ["image#parceiro3"]
+        "children": [
+            "image#parceiro3"
+        ]
     },
     "link#parceiro4": {
         "props": {
             "href": "https://www.motorola.com.br/",
-            "target": "_blank"
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
-        "children": ["image#parceiro4"]
+        "children": [
+            "image#parceiro4"
+        ]
     },
     "link#parceiro5": {
         "props": {
             "href": "https://www.choppbrahmaexpress.com.br/",
-            "target": "_blank"
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
-        "children": ["image#parceiro5"]
+        "children": [
+            "image#parceiro5"
+        ]
     },
     "link#parceiro6": {
         "props": {
             "href": "https://www.saraiva.com.br/",
-            "target": "_blank"
-        },
-        "children": ["image#parceiro6"]
-    },
-
-
-    "flex-layout.row#desklinha2": {
-        "props": {
-            "blockClass": "desklinha2"
-        },
-        "children": ["image#parceiro7",
-            "image#parceiro8",
-            "image#parceiro9",
-            "image#parceiro10",
-            "image#parceiro11",
-            "image#parceiro12"
-        ]
-    },
-    "flex-layout.row#desklinha3": {
-        "props": {
-            "blockClass": "desklinha3"
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
         "children": [
-            "image#parceiro13",
-            "image#parceiro14",
-            "image#parceiro15",
-            "image#parceiro16",
-            "image#parceiro17",
-            "image#parceiro18"
-        ]
-    },
-    "flex-layout.row#desklinha4": {
-        "props": {
-            "blockClass": "desklinha4"
-        },
-        "children": ["image#parceiro19",
-            "image#parceiro20",
-            "image#parceiro21",
-            "image#parceiro22",
-            "image#parceiro23",
-            "image#parceiro24"
-        ]
-    },
-    "flex-layout.row#desklinha5": {
-        "props": {
-            "blockClass": "desklinha5"
-        },
-        "children": ["image#parceiro25",
-            "image#parceiro26",
-            "image#parceiro27",
-            "image#parceiro28",
-            "image#parceiro29",
-            "image#parceiro30"
-        ]
-    },
-
-
-    // MOBILE
-
-    "stack-layout#mobclientes": {
-        "children": [
-            "image#mobclientefundo",
-            "rich-text#mobclientes",
-            "flex-layout.row#moblinha1",
-            "flex-layout.row#moblinha2",
-            "flex-layout.row#moblinha3",
-            "flex-layout.row#moblinha4",
-            "flex-layout.row#moblinha5",
-            "flex-layout.row#moblinha6",
-            "flex-layout.row#moblinha7",
-            "flex-layout.row#moblinha8",
-            "flex-layout.row#moblinha9",
-            "flex-layout.row#moblinha10"
-        ]
-    },
-    "image#mobclientefundo": {
-        "props": {
-            "blockClass": "mobclientefundo",
-            "src": "https://www.publicdomainpictures.net/pictures/190000/velka/black-background-1468370534d5s.jpg",
-            "width": "100%"
-        }
-    },
-    "rich-text#mobclientes": {
-        "props": {
-            "blockClass": "mobtextclientes",
-            "text": "alguns de nossos principais \n clientes",
-            "textColor": "c-on-emphasis"
-        }
-    },
-    "flex-layout.row#moblinha1": {
-        "props": {
-            "blockClass": "moblinha1"
-        },
-        "children": [
-            "image#parceiro1",
-            "image#parceiro2",
-            "image#parceiro3"
-        ]
-    },
-    "flex-layout.row#moblinha2": {
-        "props": {
-            "blockClass": "moblinha2"
-        },
-        "children": [
-            "image#parceiro4",
-            "image#parceiro5",
             "image#parceiro6"
         ]
     },
-    "flex-layout.row#moblinha3": {
-        "props": {
-            "blockClass": "moblinha3"
+
+
+    "flex-layout.row#deskclients-section2": {
+        "props":{
+            "blockClass": "desklinha2"
         },
         "children": [
-            "image#parceiro7",
-            "image#parceiro8",
+            "link#parceiro7",
+            "link#parceiro8",
+            "link#parceiro9",
+            "link#parceiro10",
+            "link#parceiro11",
+            "link#parceiro12"
+        ]
+    },
+    "link#parceiro7": {
+        "props": {
+            "href": "https://www.esteelauder.com/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro7"
+        ]
+    },
+    "link#parceiro8": {
+        "props": {
+            "href": "https://www.boticario.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro8"
+        ]
+    },
+    "link#parceiro9": {
+        "props": {
+            "href": "https://www.epocacosmeticos.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
             "image#parceiro9"
         ]
     },
-    "flex-layout.row#moblinha4": {
+    "link#parceiro10": {
         "props": {
-            "blockClass": "moblinha4"
+            "href": "https://www.hp.com/br-pt/shop/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
         "children": [
-            "image#parceiro10",
-            "image#parceiro11",
+            "image#parceiro10"
+        ]
+    },
+    "link#parceiro11": {
+        "props": {
+            "href": "https://www.farmrio.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro11"
+        ]
+    },
+    "link#parceiro12": {
+        "props": {
+            "href": "https://www.cec.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
             "image#parceiro12"
         ]
     },
-    "flex-layout.row#moblinha5": {
-        "props": {
-            "blockClass": "moblinha5"
+
+
+    "flex-layout.row#deskclients-section3": {
+        "props":{
+            "blockClass": "desklinha3"
         },
         "children": [
-            "image#parceiro13",
-            "image#parceiro14",
+            "link#parceiro13",
+            "link#parceiro14",
+            "link#parceiro15",
+            "link#parceiro16",
+            "link#parceiro17",
+            "link#parceiro18"
+        ]
+    },
+    "link#parceiro13": {
+        "props": {
+            "href": "https://www.zonasul.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro13"
+        ]
+    },
+    "link#parceiro14": {
+        "props": {
+            "href": "https://www.aldoconti.com/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro14"
+        ]
+    },
+    "link#parceiro15": {
+        "props": {
+            "href": "https://www.corebiz.ag/pt/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
             "image#parceiro15"
         ]
     },
-    "flex-layout.row#moblinha6": {
+    "link#parceiro16": {
         "props": {
-            "blockClass": "moblinha6"
+            "href": "https://www.simmons.com.ar/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
         "children": [
-            "image#parceiro16",
-            "image#parceiro17",
+            "image#parceiro16"
+        ]
+    },
+    "link#parceiro17": {
+        "props": {
+            "href": "https://www.miniso.com.mx/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro17"
+        ]
+    },
+    "link#parceiro18": {
+        "props": {
+            "href": "https://www.pardo.com.ar/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
             "image#parceiro18"
         ]
     },
-    "flex-layout.row#moblinha7": {
-        "props": {
-            "blockClass": "moblinha7"
+
+
+    "flex-layout.row#deskclients-section4": {
+        "props":{
+            "blockClass": "desklinha4"
         },
         "children": [
-            "image#parceiro19",
-            "image#parceiro20",
+            "link#parceiro19",
+            "link#parceiro20",
+            "link#parceiro21",
+            "link#parceiro22",
+            "link#parceiro23",
+            "link#parceiro24"
+        ]
+    },
+    "link#parceiro19": {
+        "props": {
+            "href": "https://www.lenovo.com/br/pt/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro19"
+        ]
+    },
+    "link#parceiro20": {
+        "props": {
+            "href": "https://www.victorinoxstore.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro20"
+        ]
+    },
+    "link#parceiro21": {
+        "props": {
+            "href": "https://www.decathlon.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
             "image#parceiro21"
         ]
     },
-    "flex-layout.row#moblinha8": {
+    "link#parceiro22": {
         "props": {
-            "blockClass": "moblinha8"
+            "href": "https://loja.singer.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
         "children": [
-            "image#parceiro22",
-            "image#parceiro23",
+            "image#parceiro22"
+        ]
+    },
+    "link#parceiro23": {
+        "props": {
+            "href": "https://www.corebiz.ag/pt/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro23"
+        ]
+    },
+    "link#parceiro24": {
+        "props": {
+            "href": "https://www.kitchenaid.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
             "image#parceiro24"
         ]
     },
-    "flex-layout.row#moblinha9": {
-        "props": {
-            "blockClass": "moblinha9"
+
+
+    "flex-layout.row#deskclients-section5": {
+        "props":{
+            "blockClass": "desklinha5"
         },
         "children": [
-            "image#parceiro25",
-            "image#parceiro26",
+            "link#parceiro25",
+            "link#parceiro26",
+            "link#parceiro27",
+            "link#parceiro28",
+            "link#parceiro29",
+            "link#parceiro30"
+        ]
+    },
+    "link#parceiro25": {
+        "props": {
+            "href": "https://www.vans.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro25"
+        ]
+    },
+    "link#parceiro26": {
+        "props": {
+            "href": "https://www.corebiz.ag/pt/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro26"
+        ]
+    },
+    "link#parceiro27": {
+        "props": {
+            "href": "https://www.jansport.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
             "image#parceiro27"
         ]
     },
-    "flex-layout.row#moblinha10": {
+    "link#parceiro28": {
         "props": {
-            "blockClass": "moblinha10"
+            "href": "https://www.columbiasportswear.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
         },
         "children": [
-            "image#parceiro28",
-            "image#parceiro29",
+            "image#parceiro28"
+        ]
+    },
+    "link#parceiro29": {
+        "props": {
+            "href": "https://www.maccosmetics.com.br/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
+            "image#parceiro29"
+        ]
+    },
+    "link#parceiro30": {
+        "props": {
+            "href": "https://fundamenta.cl/",
+            "target": "_blank",
+            "blockClass": "clientsLink"
+        },
+        "children": [
             "image#parceiro30"
         ]
     },
+
+// MOBILE
+
+"flex-layout.row#mobclients-section-text": {
+    "children": [
+        "rich-text#mobclients"
+    ]
+},
+"rich-text#mobclients": {
+    "props": {
+        "textAlignment": "LEFT",
+        "text": "alguns de nossos \n principais clientes",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-3",
+        "blockClass": "mobtextclientes"
+    }
+},
+"flex-layout.row#mobclients-section1": {
+    "props":{
+        "blockClass": "moblinha1"
+    },
+    "children": [
+        "link#parceiro1",
+        "link#parceiro2",
+        "link#parceiro3"
+    ]
+},
+"flex-layout.row#mobclients-section2": {
+    "props":{
+        "blockClass": "moblinha2"
+    },
+    "children": [
+        "link#parceiro4",
+        "link#parceiro5",
+        "link#parceiro6"
+    ]
+},
+"flex-layout.row#mobclients-section3": {
+    "props":{
+        "blockClass": "moblinha3"
+    },
+    "children": [
+        "link#parceiro7",
+        "link#parceiro8",
+        "link#parceiro9"
+    ]
+},
+"flex-layout.row#mobclients-section4": {
+    "props":{
+        "blockClass": "moblinha4"
+    },
+    "children": [
+        "link#parceiro10",
+        "link#parceiro11",
+        "link#parceiro12"
+    ]
+},
+"flex-layout.row#mobclients-section5": {
+    "props":{
+        "blockClass": "moblinha5"
+    },
+    "children": [
+        "link#parceiro13",
+        "link#parceiro14",
+        "link#parceiro15"
+    ]
+},
+"flex-layout.row#mobclients-section6": {
+    "props":{
+        "blockClass": "moblinha6"
+    },
+    "children": [
+        "link#parceiro16",
+        "link#parceiro17",
+        "link#parceiro18"
+    ]
+},
+"flex-layout.row#mobclients-section7": {
+    "props":{
+        "blockClass": "moblinha7"
+    },
+    "children": [
+        "link#parceiro19",
+        "link#parceiro20",
+        "link#parceiro21"
+    ]
+},
+"flex-layout.row#mobclients-section8": {
+    "props":{
+        "blockClass": "moblinha8"
+    },
+    "children": [
+        "link#parceiro22",
+        "link#parceiro23",
+        "link#parceiro24"
+    ]
+},
+"flex-layout.row#mobclients-section9": {
+    "props":{
+        "blockClass": "moblinha9"
+    },
+    "children": [
+        "link#parceiro25",
+        "link#parceiro26",
+        "link#parceiro27"
+    ]
+},
+"flex-layout.row#mobclients-section10": {
+    "props":{
+        "blockClass": "moblinha10"
+    },
+    "children": [
+        "link#parceiro28",
+        "link#parceiro29",
+        "link#parceiro30"
+    ]
+},
+
+
+
+
 
 
 

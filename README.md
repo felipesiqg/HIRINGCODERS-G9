@@ -72,7 +72,9 @@ Criamos uma réplica do site oficial da <a href=https://www.corebiz.ag/pt/>Coreb
     "vtex.condition-layout": "2.x",
     "vtex.product-specifications": "1.x",
     "vtex.apps-graphql": "3.x",
-    "vtex.store-video": "1.x"
+    "vtex.store-video": "1.x",
+    "hiringcoders202109.formfelipesiqg-api": "0.x",
+    "hiringcoders202109.listleads-felipesiqg": "0.x"
 
 # Colaboradores ✨
 

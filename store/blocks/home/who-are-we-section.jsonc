@@ -6,7 +6,7 @@
       "stack-layout#desk-somos-corebiz-video"
     ],
     "props": {
-      "fullWidth": true
+      "fullWidth": true,
       "blockClass": "desk-somos-corebiz"
     }
   },
@@ -58,10 +58,7 @@
       "image#vtex-logo",
       "image#sales-force-logo",
       "image#magento-logo"
-    ],
-    "props":{
-      "blockClass": "imagens-parceiros"
-    }
+    ]
   },
   "image#vtex-logo":{
     "props":{
