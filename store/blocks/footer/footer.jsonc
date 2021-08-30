@@ -53,7 +53,7 @@
   },
   "link#go-top": {
     "props": {
-      "href": "#framework-title"
+      "href": "#top"
     },
     "children": [
       "icon#go-top",
