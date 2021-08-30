@@ -8,7 +8,10 @@
             "flex-layout.row#desklinha3",
             "flex-layout.row#desklinha4",
             "flex-layout.row#desklinha5"
-        ]
+        ],
+        "props":{
+            "blockClass": "desk-clientes-logos"
+        }
     },
 
     // DESKTOP

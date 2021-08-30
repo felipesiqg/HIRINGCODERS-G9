@@ -1,23 +1,18 @@
 /* clientes */
 .flexRowContent--desklinha1 {
-  margin-left: 75px;
   padding-top: 230px;
 }
 .flexRowContent--desklinha2 {
-  margin-left: 75px;
   padding-top: 330px
 }
 .flexRowContent--desklinha3 {
-  margin-left: 75px;
   padding-top: 430px
 }
 
 .flexRowContent--desklinha4 {
-  margin-left: 75px;
   padding-top: 530px
 }
 .flexRowContent--desklinha5 {
-  margin-left: 75px;
   padding-top: 630px
 }
 
@@ -153,6 +148,7 @@
 
 .flexRowContent--desk-img-parceiros {
   align-items: center;
+}
 .flexRow--product-page{
   background: #fff;
 }
