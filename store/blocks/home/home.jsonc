@@ -36,17 +36,7 @@
       //WE ARE GLOBAL
       "stack-layout#mobmundo",
       //PRINCIPAIS CLIENTES
-      "flex-layout.row#mobclients-section-text",
-      "flex-layout.row#mobclients-section1",
-      "flex-layout.row#mobclients-section2",
-      "flex-layout.row#mobclients-section3",
-      "flex-layout.row#mobclients-section4",
-      "flex-layout.row#mobclients-section5",
-      "flex-layout.row#mobclients-section6",
-      "flex-layout.row#mobclients-section7",
-      "flex-layout.row#mobclients-section8",
-      "flex-layout.row#mobclients-section9",
-      "flex-layout.row#mobclients-section10",
+      "flex-layout.row#mobclientes",
       //CASE
       "slider-layout#case-mobile",
       //SHELF
