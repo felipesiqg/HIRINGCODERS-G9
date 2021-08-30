@@ -3,7 +3,10 @@
     "children":[
       "flex-layout.col#desk-somos-corebiz-parceiros",
       "stack-layout#desk-somos-corebiz-video"
-    ]
+    ],
+    "props": {
+      "fullWidth": true
+    }
   },
   "flex-layout.col#desk-somos-corebiz-parceiros":{
     "children":[
@@ -46,6 +49,9 @@
     }
   },
   "flex-layout.row#desk-img-parceiros":{
+    "props": {
+      "blockClass": "desk-img-parceiros"
+    },
     "children":[
       "image#vtex-logo",
       "image#sales-force-logo",
@@ -54,17 +60,23 @@
   },
   "image#vtex-logo":{
     "props":{
-      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/vtex.png"
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/vtex.png",
+      "maxHeight": 33,
+      "maxWidth": 94
     }
   },
   "image#sales-force-logo":{
     "props":{
-      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/salesforce.png"      
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/salesforce.png",
+      "maxHeight": 57,
+      "maxWidth": 84     
     }
   },
   "image#magento-logo":{
     "props":{
-      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/magento.png"
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/magento.png",
+      "maxHeight": 26,
+      "maxWidth": 94
     }
   },
 
