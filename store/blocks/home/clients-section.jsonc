@@ -104,8 +104,6 @@
             "image#parceiro6"
         ]
     },
-
-
     "flex-layout.row#deskclients-section2": {
         "props":{
             "blockClass": "desklinha2"
@@ -406,6 +404,32 @@
     },
 
 // MOBILE
+
+    "flex-layout.row#mobclientes":{
+        "children":[
+           "flex-layout.col#mobclientes-col" 
+        ],
+        "props":{
+            "blockClass": "secao-clientes"
+        }
+    },
+
+    "flex-layout.col#mobclientes-col":{
+        "children":[    
+      "flex-layout.row#mobclients-section-text",
+      "flex-layout.row#mobclients-section1",
+      "flex-layout.row#mobclients-section2",
+      "flex-layout.row#mobclients-section3",
+      "flex-layout.row#mobclients-section4",
+      "flex-layout.row#mobclients-section5",
+      "flex-layout.row#mobclients-section6",
+      "flex-layout.row#mobclients-section7",
+      "flex-layout.row#mobclients-section8",
+      "flex-layout.row#mobclients-section9",
+      "flex-layout.row#mobclients-section10"
+        ]
+    },
+
 
 "flex-layout.row#mobclients-section-text": {
     "children": [
