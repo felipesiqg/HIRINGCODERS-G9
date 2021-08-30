@@ -1,19 +1,24 @@
 /* clientes */
 .flexRowContent--desklinha1 {
-  padding-top: 230px;
+  margin-left: 16px;
+  padding-top: 20px;
 }
 .flexRowContent--desklinha2 {
-  padding-top: 330px;
+  margin-left: 25px;
+  padding-top: 40px
 }
 .flexRowContent--desklinha3 {
-  padding-top: 430px;
+  margin-left: 25px;
+  padding-top: 45px
 }
 
 .flexRowContent--desklinha4 {
-  padding-top: 530px;
+  margin-left: 25px;
+  padding-top: 50px
 }
 .flexRowContent--desklinha5 {
-  padding-top: 630px;
+  margin-left: 25px;
+  padding-top: 55px
 }
 
 /* clientes */
@@ -21,31 +26,31 @@
   padding-top: 0px;
 }
 .flexRowContent--moblinha2 {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 .flexRowContent--moblinha3 {
-  padding-top: 160px;
+  padding-top: 20px;
 }
 .flexRowContent--moblinha4 {
-  padding-top: 240px;
+  padding-top: 20px;
 }
 .flexRowContent--moblinha5 {
-  padding-top: 320px;
+  padding-top: 20px;
 }
 .flexRowContent--moblinha6 {
-  padding-top: 400px;
+  padding-top: 20px;
 }
 .flexRowContent--moblinha7 {
-  padding-top: 480px;
+  padding-top: 20px;
 }
 .flexRowContent--moblinha8 {
-  padding-top: 560px;
+  padding-top: 20px;
 }
 .flexRowContent--moblinha9 {
-  padding-top: 640px;
+  padding-top: 20px;
 }
 .flexRowContent--moblinha10 {
-  padding-top: 720px;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 48em) {

@@ -12,7 +12,12 @@
       //WE ARE GLOBAL
       "stack-layout#deskmundo",
       //PRINCIPAIS CLIENTES
-      "stack-layout#deskclientes",
+      "flex-layout.row#deskclients-section-text",
+      "flex-layout.row#deskclients-section1",
+      "flex-layout.row#deskclients-section2",
+      "flex-layout.row#deskclients-section3",
+      "flex-layout.row#deskclients-section4",
+      "flex-layout.row#deskclients-section5",
       //CASE
       "slider-layout#case-desktop",
       //SHELF
@@ -37,7 +42,17 @@
       //WE ARE GLOBAL
       "stack-layout#mobmundo",
       //PRINCIPAIS CLIENTES
-      "stack-layout#mobclientes",
+      "flex-layout.row#mobclients-section-text",
+      "flex-layout.row#mobclients-section1",
+      "flex-layout.row#mobclients-section2",
+      "flex-layout.row#mobclients-section3",
+      "flex-layout.row#mobclients-section4",
+      "flex-layout.row#mobclients-section5",
+      "flex-layout.row#mobclients-section6",
+      "flex-layout.row#mobclients-section7",
+      "flex-layout.row#mobclients-section8",
+      "flex-layout.row#mobclients-section9",
+      "flex-layout.row#mobclients-section10",
       //CASE
       "slider-layout#case-mobile",
       //SHELF
