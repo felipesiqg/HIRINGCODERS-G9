@@ -41,8 +41,9 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       //FRAMEWORK
-      "stack-layout#mobframework"
+      "stack-layout#mobframework",
       //SOMOS A COREBIZ
+      "flex-layout.row#mobile-somos-corebiz"
       //COREBIZ NA MÍDIA
       //NEWS
       //FORM

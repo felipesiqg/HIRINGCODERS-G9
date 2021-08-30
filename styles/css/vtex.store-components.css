@@ -76,3 +76,9 @@
     color: #000;
     background-color: #fff;
 }
+.container.ph3.ph5-m.ph2-xl.mw9.center {
+    padding: 0px !important
+}
+.flexRow--desk-somos-corebiz .vtex-store-components-3-x-container{
+    padding: 0 !important;
+  }

@@ -1,9 +1,13 @@
 {
+//Organização do desktop
   "flex-layout.row#desk-somos-corebiz":{
     "children":[
       "flex-layout.col#desk-somos-corebiz-parceiros",
       "stack-layout#desk-somos-corebiz-video"
-    ]
+    ],
+    "props":{
+      "blockClass": "desk-somos-corebiz"
+    }
   },
   "flex-layout.col#desk-somos-corebiz-parceiros":{
     "children":[
@@ -13,7 +17,7 @@
       "flex-layout.row#desk-img-parceiros"
     ],
     "props":{
-      "blockClass": "somos-corebiz-parceros"
+      "blockClass": "somos-corebiz-parceiros"
     }
   },
   "stack-layout#desk-somos-corebiz-video":{
@@ -50,7 +54,10 @@
       "image#vtex-logo",
       "image#sales-force-logo",
       "image#magento-logo"
-    ]
+    ],
+    "props":{
+      "blockClass": "imagens-parceiros"
+    }
   },
   "image#vtex-logo":{
     "props":{
@@ -69,49 +76,61 @@
   },
 
 // Lado direito - Vídeo
-"modal-trigger#somos-corebiz-video":{
-  "children":[
-    "image#play-video",
-    "modal-layout#somos-corebiz-video"
-  ],
-  "props":{
-    "blockClass": "somos-corebiz-modal"
-  }
-},
-"modal-layout#somos-corebiz-video":{
-  "children":[
-    "video#somos-corebiz"
-  ]
-},
-"image#video-thumb":{
-  "props":{
-    "src": " https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg",
-    "maxHeight": "100%",
-    "maxWidth": "100%",
-    "height": "100%",
-    "width": "100%"
-  }
-},
-"image#play-video":{
-  "props":{
-    "src": "assets/botao-play.png",
-    "blockClass": "botao-play-video"
-  }
-},
+  "modal-trigger#somos-corebiz-video":{
+    "children":[
+      "image#play-video",
+      "modal-layout#somos-corebiz-video"
+    ],
+    "props":{
+      "blockClass": "somos-corebiz-modal"
+    }
+  },
+  "modal-layout#somos-corebiz-video":{
+    "children":[
+      "video#somos-corebiz"
+    ]
+  },
+  "image#video-thumb":{
+    "props":{
+      "src": " https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg",
+      "maxHeight": "100%",
+      "maxWidth": "100%",
+      "height": "100%",
+      "width": "100%"
+    }
+  },
+  "image#play-video":{
+    "props":{
+      "src": "assets/botao-play.png",
+      "blockClass": "botao-play-video"
+    }
+  },
 
-"video#somos-corebiz": {
-  "props": {
-    "width": "854px",
-    "height": "480px",
-    "loop": false,
-    "autoPlay": false,
-    "muted": false,
-    "src": "https://www.youtube.com/watch?v=Lep45Aztp7g",
-    "blockClass": "video-somos-corebiz"
+  "video#somos-corebiz": {
+    "props": {
+      "width": "854px",
+      "height": "480px",
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=Lep45Aztp7g",
+      "blockClass": "video-somos-corebiz"
+    }
+  },
+  //Organização do mobile reutilizando parte do conteúdo do desktop 
+
+  "flex-layout.row#mobile-somos-corebiz":{
+    "children":[
+      "flex-layout.col#mobile-somos-corebiz"
+    ]
+  },
+  "flex-layout.col#mobile-somos-corebiz":{
+    "children":[
+      "rich-text#somos-corebiz",
+      "rich-text#maior-empresa",
+      "stack-layout#desk-somos-corebiz-video",
+      "rich-text#nossos-parceiros",
+      "flex-layout.row#desk-img-parceiros"
+    ]
   }
-}
-  
-  
-
-
 }

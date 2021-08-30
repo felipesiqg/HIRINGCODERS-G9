@@ -149,10 +149,15 @@
 
 .flexRow--product-page{
   background: #fff;
-.flexCol--somos-corebiz-parceros{
+}
+.flexCol--somos-corebiz-parceiros{
   padding-left: 10px;
   padding-right: 150px;
 }
 .flexRow--breacrumb-product{
   margin-top: 70px;
+}
+
+.flexRow--imagens-parceiros{
+  margin-bottom: 100px;
 }
