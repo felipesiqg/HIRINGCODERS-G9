@@ -1,5 +1,5 @@
-Front-end CoreBiz (Desafio final)
-# PÁGINA HOME FRONT-END COREBIZ
+
+# PÁGINA HOME COREBIZ
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
