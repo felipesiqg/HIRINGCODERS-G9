@@ -60,7 +60,7 @@
     "vtex.product-specifications": "1.x",
     "vtex.apps-graphql": "3.x",
     "vtex.store-video": "1.x",
-    "hiringcoders202109.formfelipesiqg-api": "0.x"
+    "hiringcoders202109.listleads-felipesiqg": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
