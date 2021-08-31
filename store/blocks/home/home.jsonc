@@ -11,6 +11,8 @@
     "children": [
       //WE ARE GLOBAL
       "stack-layout#deskmundo",
+      // Para performance
+      "__fold__",
       //PRINCIPAIS CLIENTES
       "flex-layout.row#clientes",
       //CASE
@@ -23,10 +25,9 @@
       //SOMOS A COREBIZ
       "flex-layout.row#desk-somos-corebiz",
       //COREBIZ NA MÍDIA
-      "flex-layout.row#media-section-desktop"
+      "flex-layout.row#media-section-desktop",
       //FORM
-//      "formulario"
-//    "hiringcoders202109.formfelipesiqg-api": "0.x", colocar no manifest
+      "formulario"
     ]
   },
 
@@ -47,9 +48,9 @@
       //SOMOS A COREBIZ
       "flex-layout.row#mobile-somos-corebiz",
       //COREBIZ NA MÍDIA
-      "flex-layout.row#media-section-mobile"
+      "flex-layout.row#media-section-mobile",
       //FORM
-//      "formulario"
+      "formulario"
     ]
   }
 }

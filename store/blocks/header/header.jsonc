@@ -42,7 +42,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "corebiz",
             "text": "a corebiz"
@@ -55,23 +55,23 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/servicos",
             "noFollow": false,
             "tagTitle": "serviços",
             "text": "serviços"
           }
         },
         {
-          "id": "menu-item-cases",
+          "id": "menu-item-leads",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/leads",
             "noFollow": false,
-            "tagTitle": "cases",
-            "text": "cases"
+            "tagTitle": "leads",
+            "text": "leads"
           }
         },
         {

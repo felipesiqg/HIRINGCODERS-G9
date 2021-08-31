@@ -1,3 +1,6 @@
 .cartIcon--icon-minicart{
     color: #fff;
 }
+.cartIcon--icon-minicart:hover{
+    color: #555;
+}

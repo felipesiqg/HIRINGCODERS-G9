@@ -1,13 +1,13 @@
 {
-/*   "store.custom#leads": {
+   "store.custom#leads": {
     "blocks": ["flex-layout.row#leads"]
   },
   "flex-layout.row#leads":{
     "children":[
-      "leadslist"
+     "leadslist"
     ],
     "props": {
       "blockClass": "page-leads"
     }
-  } */
+  }
 }
