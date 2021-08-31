@@ -19,9 +19,10 @@ Criamos uma réplica do site oficial da <a href=https://www.corebiz.ag/pt/>Coreb
 - Cases
 - Serviços
 - Somos a Corebiz
-- Notícias
+- Mídias
 - Formulário
 - Footer (Unidades e redes sociais Corebiz)
+
 
 ## Dependências
 
