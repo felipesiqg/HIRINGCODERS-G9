@@ -1,53 +1,80 @@
 {
-"flex-layout.row#footer-social-media":{
-    "children": [
-        "flex-layout.col#social",
-        "flex-layout.col#copyright"
+    "flex-layout.row#footer-social-media":{
+        "children": [
+            "flex-layout.col#social",
+            "flex-layout.col#copyright"
         ]
+    },
+    "flex-layout.col#social-mobile": {
+        "children": [
+            "rich-text#follow-mobile",
+            "flex-layout.row#icons-mobile"
+        ],
+        "props": {   
+            "blockClass": "social-mobile"
+        }
     },
     "flex-layout.col#social": {
         "children": [
-        "flex-layout.row#follow",
-        "flex-layout.row#icons"
+            "flex-layout.row#follow",
+            "flex-layout.row#icons"
         ],
         "props": {
-        "width": "12%"
+            "width": "12%"
         }
     },
     "flex-layout.row#follow": {
         "children": [
-        "rich-text#follow"
+            "rich-text#follow"
         ]
     },
     "rich-text#follow": {
         "props": {
-        "textAlignment": "LEFT",
-        "text": "**Siga a gente**",
-        "textColor": "c-on-emphasis",
-        "font": "t-heading-5",
-        "blockClass": "follow"
+            "textAlignment": "LEFT",
+            "text": "**Siga a gente**",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": "follow"
+        }
+    },
+    "rich-text#follow-mobile": {
+        "props": {
+            "textAlignment": "CENTER",
+            "text": "**Siga a gente**",
+            "blockClass": "follow-mobile"
         }
     },
     "flex-layout.row#icons": {
         "children": [
-        "link#instagram",
-        "link#facebook",
-        "link#linkedin"
+            "link#instagram",
+            "link#facebook",
+            "link#linkedin"
         ]
+    },
+    "flex-layout.row#icons-mobile": {
+        "children": [
+            "link#instagram",
+            "link#facebook",
+            "link#linkedin"
+        ],
+        "props": {
+          "preserveLayoutOnMobile": true,
+          "blockClass": "icons-mobile"
+        }
     },
     "link#instagram": {
         "props": {
-        "href": "https://www.instagram.com/corebizag/",
-        "target": "_blank",
-        "blockClass": "iconLink" 
+            "href": "https://www.instagram.com/corebizag/",
+            "target": "_blank",
+            "blockClass": "iconLink" 
         },
         "children": [
-        "icon#instagram"
+            "icon#instagram"
         ]
     },
     "icon#instagram": {
         "props": {
-        "id": "bnd-footer-instagram"
+            "id": "bnd-footer-instagram"
         }
     },
     "link#facebook": {
@@ -75,22 +102,41 @@
         "icon#linkedin"
         ]
     },
+
     "icon#linkedin": {
         "props": {
-        "id": "bnd-footer-linkedin"
+          "id": "bnd-footer-linkedin"
         }
     },
+
+    "flex-layout.col#copyright-mobile": {
+        "children": [
+            "rich-text#copyright-mobile"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+
     "flex-layout.col#copyright": {
         "children": [
-        "rich-text#copyright"
+            "rich-text#copyright"
         ]
     },
+
+    "rich-text#copyright-mobile": {
+        "props": {
+            "text": "direitos reservados. corebiz 2021",
+            "blockClass": "copyright-mobile"
+        }
+    },
+
     "rich-text#copyright": {
         "props": {
-        "text": "direitos reservados. corebiz 2021",
-        "textColor": "c-on-emphasis",
-        "font": "t-heading-5",
-        "blockClass": "copyright"
+            "text": "direitos reservados. corebiz 2021",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": "copyright"
         }
     }
 } 

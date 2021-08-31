@@ -4,17 +4,59 @@
         "blockClass": "textcountries"
         },
         "children":[
-        "flex-layout.col#brasil",
-        "flex-layout.col#argentina",
-        "flex-layout.col#mexico",
-        "flex-layout.col#chile",
-        "flex-layout.col#logo"
+            "flex-layout.col#brasil",
+            "flex-layout.col#argentina",
+            "flex-layout.col#mexico",
+            "flex-layout.col#chile",
+            "flex-layout.col#logo"
         ]
     },
 
     "flex-layout.col#brasil": {
         "children":[
-        "rich-text#brasil"
+            "rich-text#brasil"
+        ]
+    },
+
+    "flex-layout.col#argentina": {
+        "children":[
+            "rich-text#argentina"
+        ]
+    },
+
+    "flex-layout.col#mexico": {
+        "children":[
+            "rich-text#mexico"
+        ]
+    },
+
+    "flex-layout.col#chile": {
+        "children":[
+            "rich-text#chile"
+        ]
+    },
+
+    "flex-layout.col#brasil-mobile": {
+        "children":[
+            "rich-text#brasil-mobile"
+        ]
+    },
+
+    "flex-layout.col#argentina-mobile": {
+        "children":[
+            "rich-text#argentina-mobile"
+        ]
+    },
+
+    "flex-layout.col#mexico-mobile": {
+        "children":[
+            "rich-text#mexico-mobile"
+        ]
+    },
+
+    "flex-layout.col#chile-mobile": {
+        "children":[
+            "rich-text#chile-mobile"
         ]
     },
 
@@ -29,12 +71,6 @@
         }
     },
 
-    "flex-layout.col#argentina": {
-        "children":[
-        "rich-text#argentina"
-        ]
-    },
-
     "rich-text#argentina": {
         "props": {
         "textAlignment": "LEFT",
@@ -44,12 +80,6 @@
         "font": "t-heading-5",
         "blockClass": "country"
         }
-    },
-
-    "flex-layout.col#mexico": {
-        "children":[
-        "rich-text#mexico"
-        ]
     },
 
     "rich-text#mexico":{
@@ -63,13 +93,51 @@
         }
     },
 
-    "flex-layout.col#chile": {
-        "children":[
-        "rich-text#chile"
-        ]
+    "rich-text#chile": {
+        "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Chile** Roberto del Río 1137,\n Providencia.",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "country"
+        }
     },
 
-    "rich-text#chile": {
+    "rich-text#brasil-mobile":{
+        "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Brasil** Avenida Andrômeda, 2000.\n Bloco 6 e 8 Alphaville SP \n\n R. Ifigenia Maria de\n Oliveira, 3793 - Jr.\n Piratininga Franca SP",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "country"
+        }
+    },
+
+    "rich-text#argentina-mobile": {
+        "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Argentina** Soler 5518, 3 Piso C1425BYF\n Palermo Hollywood CABA",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "country"
+        }
+    },
+
+    "rich-text#mexico-mobile":{
+        "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "\n**Mexico** Blvd. Miguel de Cervantes\n Saavedra 169, Granada,\n Miguel Hidalgo, 11520\n Ciudad de México, CDMX",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "country"
+        }
+    },
+
+    "rich-text#chile-mobile": {
         "props": {
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
@@ -82,17 +150,33 @@
 
     "flex-layout.col#logo": {
         "children": [
-        "icon#logo"
+            "icon#logo"
         ],
         "props": {
-        "blockClass": "footer-logo-icon"
+            "blockClass": "footer-logo-icon"
         }
     },
 
     "icon#logo": {
         "props": {
-        "id": "bnd-footer-corebiz",
-        "size": 113
+            "id": "bnd-footer-corebiz",
+            "size": 113
+        }
+    },
+
+    "flex-layout.col#logo-mobile": {
+        "children": [
+            "icon#logo-mobile"
+        ],
+        "props": {
+            "blockClass": "footer-logo-icon"
+        }
+    },
+
+    "icon#logo-mobile": {
+        "props": {
+            "id": "bnd-footer-corebiz",
+            "size": 72
         }
     }
 } 
