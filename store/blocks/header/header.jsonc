@@ -68,7 +68,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/leads",
+            "href": "/lead",
             "noFollow": false,
             "tagTitle": "leads",
             "text": "leads"
