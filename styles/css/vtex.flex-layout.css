@@ -217,18 +217,16 @@
 
 /* MEDIA SECTION DESKTOP*/
 
-.flexRow--on-media-container,
-.flexRow--media-section-container {
+.flexRow--on-media-container, .flexRow--media-section-container {
   position: relative;
   overflow-x: hidden;
 }
 
-.flexRowContent--on-media-container,
-.flexRowContent--media-section-container {
-  width: 100%;
-  background-color: #000;
+.flexRowContent--on-media-container, .flexRowContent--media-section-container {
+  width: 100vw;
   background-image: url("assets/background-media.png");
-  background-size: contain;
+  background-size: cover;
+  background-size: 100vw;
   box-sizing: border-box;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -244,13 +242,13 @@
 }
 
 .flexRowContent--on-media-container::before {
-  width: 100%;
+  width: 100vw;
   height: auto;
   position: absolute;
   bottom: 0;
   top: 0;
   background-image: "assets/background-media.png";
-  background-size: 60%;
+  background-size: 100vw;
   content: "";
   background-position: 10% 45px;
   background-repeat: no-repeat;
@@ -258,13 +256,13 @@
 }
 
 .flexRowContent--media-section-container::before {
-  width: 100%;
+  width: 100vw;
   position: absolute;
   height: 780px;
   bottom: 1rem;
   top: 0;
   background-image: "assets/background-media.png";
-  background-size: 60%;
+  background-size: 100%;
   content: "";
   background-position: 10% 45px;
   background-repeat: no-repeat;
