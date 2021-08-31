@@ -1,14 +1,147 @@
 {
   "footer": {
     "blocks": [
-      "footer-layout.desktop"
+      "footer-layout.desktop",
+      "footer-layout.mobile"
     ]
   },
+
   "footer-layout.desktop": { 
     "children": [
       "flex-layout.row#footer"    
     ]
   },
+
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer-mobile"    
+    ]
+  },
+
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-image-mobile",
+      "flex-layout.col#footer-content-mobile"      
+    ],
+    "props": {
+      "blockClass": "footer-mobile",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#footer-image-mobile": {
+    "children": [
+      "image#footer-image-mobile"
+    ],
+    "props": {
+      "blockClass": "imagefooter-mobile"
+    }
+  },
+  
+  "image#footer-image-mobile": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/footer-background--mobile.jpg"
+    }
+  },
+
+  "flex-layout.col#footer-content-mobile": {
+    "children": [
+      "flex-layout.row#footer-logo-mobile",
+      "flex-layout.row#footer-countries-mobile",
+      "flex-layout.row#footer-countries-2-mobile",
+      "flex-layout.row#footer-social-media-mobile",
+      "flex-layout.row#footer-go-top-mobile",
+      "flex-layout.row#footer-copyright-mobile"
+    ],
+    "props": {
+      "blockClass":"contentfootermobile"
+    }
+  },
+
+  "flex-layout.row#footer-logo-mobile": {
+    "children": [
+      "flex-layout.col#logo-mobile"
+    ],
+    "props": {
+      "blockClass": "logofootermobile"
+    }
+  },
+
+  "flex-layout.row#footer-countries-mobile": {
+    "children": [
+      "flex-layout.col#brasil-mobile",
+      "flex-layout.col#argentina-mobile"
+    ],
+    "props": {
+      "blockClass": "countries-mobile",
+      "preserveLayoutOnMobile": true,
+      "colGap": 4,
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#footer-countries-2-mobile": {
+    "children": [
+      "flex-layout.col#mexico-mobile",
+      "flex-layout.col#chile-mobile"
+    ],
+    "props": {
+      "blockClass": "countries-mobile",
+      "preserveLayoutOnMobile": true,
+      "colGap": 4,
+      "rowGap": 4
+    }
+  },
+
+  "flex-layout.row#footer-social-media-mobile": {
+    "children": [
+      "flex-layout.col#social-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center" ,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  
+  "flex-layout.row#footer-go-top-mobile": {
+    "children": [
+      "link#go-top-mobile"
+    ],
+    "props": {
+      "blockClass": "footer-go-top-mobile"
+    }
+  },
+
+  "link#go-top-mobile": {
+    "props": {
+      "href": "#top"
+    },
+    "children": [
+      "icon#go-top-mobile",
+      "rich-text#go-top-mobile"
+    ]
+  },
+
+  "icon#go-top-mobile": {
+    "props": {
+      "id": "hpa-arrow-to-top-mobile",
+      "size": 50
+    }
+  },
+
+  "rich-text#go-top-mobile": {
+    "props": {
+      "text": "topo",
+      "blockClass": "footer-go-top-mobile"
+    }
+  },
+  
+  "flex-layout.row#footer-copyright-mobile": {
+    "children": [
+      "flex-layout.col#copyright-mobile"
+    ]
+  },
+
   "flex-layout.row#footer": {
     "children": [
       "flex-layout.col#footer-content",
@@ -19,6 +152,7 @@
       "fullWidth": true
     }
   },
+
   "flex-layout.col#footer-content": {
     "children": [
       "flex-layout.row#footer-countries",
@@ -30,6 +164,7 @@
       "width": "100%"
     }
   },
+
   "flex-layout.col#footer-image": {
     "children": [
       "image#footer-image"
@@ -38,6 +173,7 @@
       "blockClass": "imagefooter"
     }
   },
+
   "image#footer-image": {
     "props": {
       "src":"https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/footer-background.jpg"

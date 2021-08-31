@@ -141,6 +141,51 @@
   text-decoration: none;
 }
 
+.flexRow--footer-go-top-mobile {
+  margin: 67px auto 47px;
+  width: 20%;
+  text-align: center;
+}
+
+.flexRow--footer-go-top-mobile :global(.vtex-store-link-0-x-link) {
+  text-decoration: none;
+}
+
+.flexRow--footer-mobile {
+  background: #f5f5f5;
+  position: relative;
+  margin-top: 40px;
+}
+
+.flexCol--contentfootermobile {
+  background: #000;
+  margin-top: 100px;
+  padding: 60px 25px 40px;
+  z-index: 2;
+}
+
+.flexCol--imagefooter-mobile {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  text-align: right;
+}
+
+.flexRow--logofootermobile {
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.flexRow--icons-mobile {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flexColChild--social-mobile :global(.vtex-rich-text-0-x-container) {
+  justify-content: center;
+}
+
 /* Cor dos botões em preto, de acordo com a identidade da Corebiz */
 .stretchChildrenWidth :global(.vtex-button) {
   background: #000;
@@ -181,6 +226,7 @@
 .flexRowContent--on-media-container,
 .flexRowContent--media-section-container {
   width: 100%;
+  background-color: #000;
   background-image: url("assets/background-media.png");
   background-size: contain;
   box-sizing: border-box;

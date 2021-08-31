@@ -1,40 +1,39 @@
 .paragraph {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "CircularStd"
 }
 
 /* desktop */
 .paragraph--desktextmundo {
   color: #ffffff;
   line-height: 0.8;
-  font-weight: 650;
+  font-weight: 600;
   margin-left: 16px;
 }
 .paragraph--desktextfrase {
   line-height: 1;
-  font-weight: 500;
+  font-weight: 300;
   padding-top: 350px;
   margin-left: 16px;
 }
 /* estilização numeros */
 .paragraph--desktextnum1 {
-  font-weight: 600;
+  font-weight: 300;
   padding-top: 440px;
   margin-left: 16px;
 }
 .paragraph--desktextnum2 {
-  font-weight: 600;
+  font-weight: 300;
   padding-top: 440px;
   margin-left: 155px;
 }
 .paragraph--desktextnum3 {
-  font-weight: 600;
+  font-weight: 300;
   padding-top: 440px;
   margin-left: 280px;
 }
 /* estilização informações */
 .paragraph--desktextinf1 {
-  font-weight: 400;
+  font-weight: 300;
   padding-top: 480px;
   margin-left: 16px;
   line-height: 0.9;
@@ -48,7 +47,7 @@
   color: #bfccbf;
 }
 .paragraph--desktextinf3 {
-  font-weight: 400;
+  font-weight: 300;
   padding-top: 480px;
   margin-left: 280px;
   line-height: 0.9;
@@ -123,17 +122,48 @@
 
 .paragraph--country {
   font-size: 11px;
-  font-weight: bold;
+  font-weight: 400;
+  font-family: "CircularStd";
 }
 
 .strong--country {
   display: block;
   font-size: 18px;
+  font-weight: 600;
+  font-family: "CircularStd";
   margin-bottom: 21px;
+}
+
+.paragraph--follow {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "CircularStd";
+}
+
+.paragraph--follow-mobile {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-family: "CircularStd";
+  font-size: 18px;
+  margin-bottom: 19px;
+  margin-top: 47px;
+}
+
+.container--footer-go-top-mobile {
+  justify-content: center;
+}
+
+.paragraph--footer-go-top-mobile {
+  font-family: "CircularStd";
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .paragraph--copyright {
   color: silver;
+  font-weight: 300;
+  font-family: "CircularStd";
   font-size: 14px;
   margin-top: 64px;
   margin-left: 350px;
@@ -142,7 +172,17 @@
 .paragraph--footer-go-top {
   margin: 5px 10px 0;
   font-size: 14px;
-  color: #fff;
+  font-weight: 300;
+  font-family: "CircularStd";
+  color: #000;
+}
+
+.paragraph--copyright-mobile {
+  color: silver;
+  margin-top: 22px;
+  font-family: "CircularStd";
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .heading-level-4 {
@@ -250,6 +290,8 @@
 .heading--shelfTitle {
   color: #000;
   padding-left: 64px;
+  font-weight: 600;
+  font-family: "CircularStd";
 }
 .paragraph--txt-somos-corebiz {
   color: #000;

@@ -39,6 +39,11 @@
   transform: translate(70%, 10%);
 }
 
+.heading--infocard-desktop {
+  font-family: "CircularStd";
+  font-weight: 400;
+}
+
 .infoCardAllActionContainer:global(.vtex-button__label) {
   text-decoration: none;
   color: #fff;
@@ -117,6 +122,8 @@
   font-weight: bold;
   font-size: 28px;
   justify-content: left;
+  font-weight: 600;
+  font-family: "CircularStd";
 }
 
 .infoCardHeadline--media-card2 {
@@ -130,6 +137,14 @@
   font-size: 28px;
   justify-content: left;
   padding-right: 5%;
+  font-weight: 600;
+  font-family: "CircularStd";
+}
+
+.infoCardSubhead--media-card1,
+.infoCardSubhead--media-card2 {
+  font-weight: 300;
+  font-family: "CircularStd";
 }
 
 .infoCardTextContainer--media-card1 {
